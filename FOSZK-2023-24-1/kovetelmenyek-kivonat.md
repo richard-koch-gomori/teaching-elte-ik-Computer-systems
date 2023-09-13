@@ -1,6 +1,6 @@
 # Követelmények a tárgy Canvas honlapján:
 
-TODO
+<https://canvas.elte.hu/courses/39598/assignments/syllabus>
 
 Tárgy: Számítógépes alapismeretek EA+GY  
 Tárgykód: IK-18fszSZGAEG  
@@ -21,10 +21,11 @@ gyakorlati jegy:
 
 | gyakjegy  | pontszám |
 | ------------- | ------------- |
-| 5  | TODO  |
-| 4  | TODO  |
-| 3  | TODO  |
-| 2  | TODO  |
-| 1  | TODO  |
+| 5  | 54-60  |
+| 4  | 46-53  |
+| 3  | 38-45  |
+| 2  | 30-37  |
+| 1  | 0-29  |
+
 
 
