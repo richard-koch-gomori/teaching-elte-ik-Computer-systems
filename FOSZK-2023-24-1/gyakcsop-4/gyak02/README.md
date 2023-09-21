@@ -174,42 +174,6 @@ kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls -l
 drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 18 19:00 a
 -rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:49 first.txt
 -rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:55 third.txt
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ tartalma:                                                                                                                                                   Hajrá Fradi! 1^C
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls -3
-ls: érvénytelen kapcsoló -- "3"
-További információkért adja ki a(z) „ls --help” parancsot.
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls - 3
-ls: '-' nem érhető el: Nincs ilyen fájl vagy könyvtár
-ls: '3' nem érhető el: Nincs ilyen fájl vagy könyvtár
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls -l -3
-ls: érvénytelen kapcsoló -- "3"
-További információkért adja ki a(z) „ls --help” parancsot.
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ man ls
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls -l -r
-összesen 5
--rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:55 third.txt
--rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:49 first.txt
-drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 18 19:00 a
--rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:58 4.txt
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls -l -r                                                                                                                                                   1
-ls: '1' nem érhető el: Nincs ilyen fájl vagy könyvtár
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$ ls -l -r
-összesen 5
--rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:55 third.txt
--rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:49 first.txt
-drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 18 19:00 a
--rw-r--r-- 1 kgomoririchard inf2016   56 szept 18 18:58 4.txt
-kgomoririchard@szamrend:~/Dokumentumok/szamalap/gyak02$
 ~~~
 
 ## órai feladat
