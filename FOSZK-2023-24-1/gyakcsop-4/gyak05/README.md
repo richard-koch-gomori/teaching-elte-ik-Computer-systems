@@ -192,8 +192,24 @@ ps aux
 
 ## házi feladat
 
-TODO
+- Egyetlen `find` parancs segítségével keresd meg a `gyak05` könyvtár alatt (alkönyvtáraiban is keresve) azokat a fájlokat, amelyek jogosultsága 777, és a talált fájlokról vedd le a végrehajtási (execute) jogosultságot. Ahhoz, hogy ebben a feladatban legalább 2 db. találat legyen, hozzunk létre `AA.txt` és `BB.txt` üres fájlokat a `gyak05` könyvtár alá, és adjunk nekik végrehajtási jogosultságot.
+- Számold meg és írd ki a képernyőre a `gyak05` könyvtár alatti (alkönyvtáraiban is keresve) az összes `.txt` kiterjesztésű fájl sorok számának összegét.
+- Keresse meg és írja ki a képernyőre az `example2.txt` fájlban azokat a sorokat (és azok sorszámait), amelyek egész szóként tartalmazzák a `foo` szót (a kis-nagybetűket NE különböztessük meg).
 
+example2.txt:
 
+~~~
+Aaaa fooa 
+dsfOooogd
+t34636 fOo sgsd
+He cipher foo Asds
+foo
+qwerty
+52362
+cplusplus Foo
+foocomputer RSA cipher
+foofoo
+absolute value
+~~~
 
 
