@@ -1,4 +1,4 @@
-# Számítógépes alapismeretek 3. gyakorlat
+# Számítógépes alapismeretek 4. gyakorlat
 
 ## terminál log (a formázás elcsúszhat)
 

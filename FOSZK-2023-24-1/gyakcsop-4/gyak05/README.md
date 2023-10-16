@@ -1,4 +1,4 @@
-# Számítógépes alapismeretek 3. gyakorlat
+# Számítógépes alapismeretek 5. gyakorlat
 
 ## parancs history
 
