@@ -21,6 +21,12 @@ igény esetén; email-ben/személyesen lehet egyeztetni konzultációt bármikor
 2 zh, szorgalmi időszak közepe és vége, (TODO pontos időpont)  
 pótzh: TODO
 
+### 1. zh
+
+~~~
+2023. november 13. (hétfő), gyakorlat idejében és helyén
+~~~
+
 ## beadandók
 
 2 beadandó, szorgalmi időszak közepe és vége, (TODO pontos időpont)
