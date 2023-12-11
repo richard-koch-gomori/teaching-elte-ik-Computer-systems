@@ -24,7 +24,9 @@ igény esetén; email-ben/személyesen lehet egyeztetni konzultációt bármikor
 
 ### 2. zh
 
-TODO
+~~~
+
+~~~
 
 ### pót zh
 
@@ -40,4 +42,16 @@ EA Canvas-ében, határidő: 2023. november 19. (vasárnap 23:59)
 
 
 TODO
+
+
+
+## pót gyakorlat 1
+
+December 12, 18:30-20:00 között,  
+ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda)
+
+## pót gyakorlat 2
+
+
+
 
