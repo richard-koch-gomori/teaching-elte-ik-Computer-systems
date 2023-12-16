@@ -25,12 +25,16 @@ igény esetén; email-ben/személyesen lehet egyeztetni konzultációt bármikor
 ### 2. zh
 
 ~~~
-
+2024. január 4. (csütörtök), 16:00-17:30  
+ELTE Déli Tömb 2-219 (Grafika labor)
 ~~~
 
 ### pót zh
 
-TODO
+~~~
+2024. január 12. (péntek), 16:00-17:30  
+ELTE Déli Tömb 2-219 (Grafika labor)
+~~~
 
 ## beadandók
 
@@ -40,8 +44,7 @@ EA Canvas-ében, határidő: 2023. november 19. (vasárnap 23:59)
 
 ### 2. beadandó
 
-
-TODO
+EA Canvas-ében / e-mailben kgomoririchard@inf.elte.hu, határidő: 2023. december 22. (péntek 23:59)
 
 
 
@@ -51,6 +54,10 @@ December 12, 18:30-20:00 között,
 ELTE Déli Tömb, Informatikai Kari Nagy Számítógépes Laboratórium (Lovarda)
 
 ## pót gyakorlat 2
+
+December 19, 16:00-17:30 között,  
+ELTE Déli Tömb 2-219 (Grafika labor)
+
 
 
 
