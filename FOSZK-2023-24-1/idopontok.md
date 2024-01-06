@@ -33,7 +33,7 @@ ELTE Déli Tömb 2-219 (Grafika labor)
 
 ~~~
 2024. január 12. (péntek), 16:00-17:30  
-ELTE Déli Tömb 2-219 (Grafika labor)
+ELTE Déli Tömb, 2-218 Komputer Algebra Labor
 ~~~
 
 ## beadandók
