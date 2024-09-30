@@ -1,0 +1,496 @@
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$ ls -la
+összesen 265
+drwx------ 37 kgomoririchard inf2016  4096 szept                                                       25 23:19 .
+drwxr-xr-x  2 daemon         root     2048 aug                                                          8 04:01 ..
+drwxr-xr-x  2 kgomoririchard inf2016  2048 jún                                                          4  2018 Asztal
+-rw-------  1 kgomoririchard inf2016  7093 szept                                                       25 23:19 .bash_history
+-rw-------  1 kgomoririchard inf2016     0 nov                                                         15  2019 .bash_history-03250.tmp
+-rw-------  1 kgomoririchard inf2016     0 okt                                                          8  2023 .bash_history-32567.tmp
+-rw-r--r--  1 kgomoririchard inf2016     1 okt                                                         16  2023 .bash_profile
+drwx------ 17 kgomoririchard inf2016  2048 jan                                                          6  2020 .cache
+drwxr-xr-x  3 kgomoririchard inf2016  2048 febr                                                        11  2020 .cinnamon
+drwx------ 26 kgomoririchard inf2016  2048 márc                                                        20  2023 .config
+drwx------  3 kgomoririchard inf2016  2048 márc                                                        23  2018 .dbus
+drwxr-xr-x  3 kgomoririchard inf2016  2048 ápr                                                          6  2018 .designer
+drwxr-xr-x 11 kgomoririchard inf2016  2048 jan                                                         12  2024 Dokumentumok
+drwx------  2 kgomoririchard inf2016  2048 okt                                                          5  2018 .emacs.d
+drwx------  3 kgomoririchard inf2016  2048 okt                                                          8  2018 .gconf
+drwxr-xr-x  5 kgomoririchard inf2016  2048 nov                                                         26  2019 .gkrellm2
+drwx------  3 kgomoririchard inf2016  2048 dec                                                          1  2016 .gnome2
+drwx------  2 kgomoririchard inf2016  2048 dec                                                          1  2016 .gnome2_private
+drwx------  3 kgomoririchard inf2016  2048 márc                                                        23  2018 .gnupg
+-rw-------  1 kgomoririchard inf2016  4790 márc                                                        11  2020 .ICEauthority
+drwx------  2 kgomoririchard inf2016  2048 okt                                                         16  2019 .icewm
+-rw-------  1 kgomoririchard inf2016   167 okt                                                         10  2016 .joe_state
+drwx------  3 kgomoririchard inf2016  2048 okt                                                         16  2019 .kde
+drwxr-xr-x  2 kgomoririchard inf2016  2048 nov                                                         22  2019 Képek
+-rw-------  1 kgomoririchard inf2016    45 okt                                                          6  2016 .lesshst
+drwxr-xr-x  5 kgomoririchard inf2016  2048 dec                                                         12  2023 Letöltések
+drwx------  3 kgomoririchard inf2016  2048 okt                                                         16  2019 .local
+drwx------  5 kgomoririchard inf2016  2048 szept                                                       10  2019 .mozilla
+drwxr-xr-x  2 kgomoririchard inf2016  2048 nov                                                         10  2020 .nano
+-rw-r--r--  1 kgomoririchard inf2016   159 márc                                                         3  2020 névtelen
+-rw-------  1 kgomoririchard inf2016     0 okt                                                          9  2023 nohup.out
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Nyilvános
+drwxr-xr-x  2 kgomoririchard inf2016  2048 nov                                                         18  2019 .oracle_jre_usage
+-rw-r--r--  1 kgomoririchard inf2016    23 szept                                                       18  2023 .pinerc
+drwx------  3 kgomoririchard inf2016  2048 okt                                                          8  2018 .pki
+lrwxr-xr-x  1 daemon         inf2016    29 okt                                                         14  2019 public -> /h/public/k/kg/kgomoririchard
+-rw-------  1 kgomoririchard inf2016  1611 jan                                                          3  2020 .recently-used
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Sablonok
+-rw-r--r--  1 kgomoririchard inf2016    66 dec                                                          6  2013 .selected_editor
+-rw-r--r--  1 kgomoririchard inf2016    41 nov                                                         20  2019 .spectemurc
+drwx------  2 kgomoririchard inf2016  2048 szept                                                       24  2019 .ssh
+drwxr-xr-x  4 kgomoririchard inf2016  2048 szept                                                       12 09:34 Szamrend
+drwxr-xr-x  3 kgomoririchard inf2016  2048 ápr                                                         28  2018 .thumbnails
+drwx------  5 kgomoririchard inf2016  2048 szept                                                       25  2019 .thunderbird
+drwxr-xr-x  2 kgomoririchard inf2016  2048 máj                                                          7  2018 untitled
+drwxr-xr-x  2 kgomoririchard inf2016  2048 máj                                                          7  2018 untitled1
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Videók
+-rw-------  1 kgomoririchard inf2016 24913 okt                                                          8  2023 .viminfo
+drwx------  3 kgomoririchard inf2016  2048 márc                                                        13  2023 VirtualBox VMs
+drwxr-xr-x  3 kgomoririchard inf2016  2048 nov                                                         10  2019 .vscode
+-rw-------  1 kgomoririchard inf2016  3392 szept                                                       18  2023 .Xauthority
+-rw-r--r--  1 kgomoririchard inf2016 27455 jan                                                         26  2020 .xfce4-session.verbose-log
+-rw-r--r--  1 kgomoririchard inf2016 93237 jan                                                         26  2020 .xfce4-session.verbose-log.last
+drwxr-xr-x  3 kgomoririchard inf2016  2048 nov                                                         18  2019 .xpaint
+-rw-------  1 kgomoririchard inf2016     0 szept                                                       18  2023 .xsession-errors
+-rw-------  1 kgomoririchard inf2016 19213 jún                                                          6  2023 .xsession-errors.old
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Zenék
+kgomoririchard@szamrend:~$ ls
+Asztal        nohup.out  untitled
+Dokumentumok  Nyilvános  untitled1
+Képek         public     Videók
+Letöltések    Sablonok   VirtualBox VMs
+névtelen      Szamrend   Zenék
+kgomoririchard@szamrend:~$ mv Szamrend/ Dokumentu                                                      mok/Szamrend-24-25-1
+kgomoririchard@szamrend:~$ ls
+Asztal        nohup.out  untitled1
+Dokumentumok  Nyilvános  Videók
+Képek         public     VirtualBox VMs
+Letöltések    Sablonok   Zenék
+névtelen      untitled
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+kgomoririchard@szamrend:~/Dokumentumok$ ls
+compalg  impro     symbolic.zip      temp
+cpp      java      szamalap          tmp
+enc      symbolic  Szamrend-24-25-1
+kgomoririchard@szamrend:~/Dokumentumok$ cd Szamre                                                      nd-24-25-1/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ ls -l
+összesen 4
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 12                                                       09:31 gyak01
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 12                                                       09:34 gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ ls
+gyak01  gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ ls -l
+összesen 4
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 12                                                       09:31 gyak01
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 12                                                       09:34 gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ cd gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ touch hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ mkdir filmek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek  hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ touch Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ touch Read_player_one.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ cd
+kgomoririchard@szamrend:~$ cd
+kgomoririchard@szamrend:~$ ls -la
+összesen 263
+drwx------ 36 kgomoririchard inf2016  4096 szept                                                       26 08:27 .
+drwxr-xr-x  2 daemon         root     2048 aug                                                          8 04:01 ..
+drwxr-xr-x  2 kgomoririchard inf2016  2048 jún                                                          4  2018 Asztal
+-rw-------  1 kgomoririchard inf2016  7093 szept                                                       25 23:19 .bash_history
+-rw-------  1 kgomoririchard inf2016     0 nov                                                         15  2019 .bash_history-03250.tmp
+-rw-------  1 kgomoririchard inf2016     0 okt                                                          8  2023 .bash_history-32567.tmp
+-rw-r--r--  1 kgomoririchard inf2016     1 okt                                                         16  2023 .bash_profile
+drwx------ 17 kgomoririchard inf2016  2048 jan                                                          6  2020 .cache
+drwxr-xr-x  3 kgomoririchard inf2016  2048 febr                                                        11  2020 .cinnamon
+drwx------ 26 kgomoririchard inf2016  2048 márc                                                        20  2023 .config
+drwx------  3 kgomoririchard inf2016  2048 márc                                                        23  2018 .dbus
+drwxr-xr-x  3 kgomoririchard inf2016  2048 ápr                                                          6  2018 .designer
+drwxr-xr-x 12 kgomoririchard inf2016  2048 szept                                                       26 08:27 Dokumentumok
+drwx------  2 kgomoririchard inf2016  2048 okt                                                          5  2018 .emacs.d
+drwx------  3 kgomoririchard inf2016  2048 okt                                                          8  2018 .gconf
+drwxr-xr-x  5 kgomoririchard inf2016  2048 nov                                                         26  2019 .gkrellm2
+drwx------  3 kgomoririchard inf2016  2048 dec                                                          1  2016 .gnome2
+drwx------  2 kgomoririchard inf2016  2048 dec                                                          1  2016 .gnome2_private
+drwx------  3 kgomoririchard inf2016  2048 márc                                                        23  2018 .gnupg
+-rw-------  1 kgomoririchard inf2016  4790 márc                                                        11  2020 .ICEauthority
+drwx------  2 kgomoririchard inf2016  2048 okt                                                         16  2019 .icewm
+-rw-------  1 kgomoririchard inf2016   167 okt                                                         10  2016 .joe_state
+drwx------  3 kgomoririchard inf2016  2048 okt                                                         16  2019 .kde
+drwxr-xr-x  2 kgomoririchard inf2016  2048 nov                                                         22  2019 Képek
+-rw-------  1 kgomoririchard inf2016    45 okt                                                          6  2016 .lesshst
+drwxr-xr-x  5 kgomoririchard inf2016  2048 dec                                                         12  2023 Letöltések
+drwx------  3 kgomoririchard inf2016  2048 okt                                                         16  2019 .local
+drwx------  5 kgomoririchard inf2016  2048 szept                                                       10  2019 .mozilla
+drwxr-xr-x  2 kgomoririchard inf2016  2048 nov                                                         10  2020 .nano
+-rw-r--r--  1 kgomoririchard inf2016   159 márc                                                         3  2020 névtelen
+-rw-------  1 kgomoririchard inf2016     0 okt                                                          9  2023 nohup.out
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Nyilvános
+drwxr-xr-x  2 kgomoririchard inf2016  2048 nov                                                         18  2019 .oracle_jre_usage
+-rw-r--r--  1 kgomoririchard inf2016    23 szept                                                       18  2023 .pinerc
+drwx------  3 kgomoririchard inf2016  2048 okt                                                          8  2018 .pki
+lrwxr-xr-x  1 daemon         inf2016    29 okt                                                         14  2019 public -> /h/public/k/kg/kgomoririchard
+-rw-------  1 kgomoririchard inf2016  1611 jan                                                          3  2020 .recently-used
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Sablonok
+-rw-r--r--  1 kgomoririchard inf2016    66 dec                                                          6  2013 .selected_editor
+-rw-r--r--  1 kgomoririchard inf2016    41 nov                                                         20  2019 .spectemurc
+drwx------  2 kgomoririchard inf2016  2048 szept                                                       24  2019 .ssh
+drwxr-xr-x  3 kgomoririchard inf2016  2048 ápr                                                         28  2018 .thumbnails
+drwx------  5 kgomoririchard inf2016  2048 szept                                                       25  2019 .thunderbird
+drwxr-xr-x  2 kgomoririchard inf2016  2048 máj                                                          7  2018 untitled
+drwxr-xr-x  2 kgomoririchard inf2016  2048 máj                                                          7  2018 untitled1
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Videók
+-rw-------  1 kgomoririchard inf2016 24913 okt                                                          8  2023 .viminfo
+drwx------  3 kgomoririchard inf2016  2048 márc                                                        13  2023 VirtualBox VMs
+drwxr-xr-x  3 kgomoririchard inf2016  2048 nov                                                         10  2019 .vscode
+-rw-------  1 kgomoririchard inf2016  3392 szept                                                       18  2023 .Xauthority
+-rw-r--r--  1 kgomoririchard inf2016 27455 jan                                                         26  2020 .xfce4-session.verbose-log
+-rw-r--r--  1 kgomoririchard inf2016 93237 jan                                                         26  2020 .xfce4-session.verbose-log.last
+drwxr-xr-x  3 kgomoririchard inf2016  2048 nov                                                         18  2019 .xpaint
+-rw-------  1 kgomoririchard inf2016     0 szept                                                       18  2023 .xsession-errors
+-rw-------  1 kgomoririchard inf2016 19213 jún                                                          6  2023 .xsession-errors.old
+drwxr-xr-x  2 kgomoririchard inf2016  2048 dec                                                          1  2016 Zenék
+kgomoririchard@szamrend:~$ rm .vscode/
+rm: '.vscode/' nem törölhető: Ez egy könyvtár
+kgomoririchard@szamrend:~$ rm -r^Cvscode/
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          symbolic/
+cpp/              szamalap/
+enc/              Szamrend-24-25-1/
+impro/            temp/
+java/             tmp/
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          symbolic/
+cpp/              szamalap/
+enc/              Szamrend-24-25-1/
+impro/            temp/
+java/             tmp/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamre                                                      nd-24-25-1/gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek  hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ touch Oppenheimer.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ ls -l
+összesen 0
+-rw-r--r-- 1 kgomoririchard inf2016 0 szept 26 08                                                      :45 Oppenheimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016 0 szept 26 08                                                      :34 Read_player_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 0 szept 26 08                                                      :33 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ nano Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ ls -l
+összesen 1
+-rw-r--r-- 1 kgomoririchard inf2016 0 szept 26 08                                                      :45 Oppenheimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016 0 szept 26 08                                                      :34 Read_player_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 5 szept 26 08                                                      :46 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls filmek/
+Oppenheimer.txt  Read_player_one.txt  Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp filmek/ filmek2/
+cp: -r not specified; omitting directory 'filmek/                                                      '
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek/ filmek2/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek  filmek2  hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls filmek2
+Oppenheimer.txt  Read_player_one.txt  Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r -v filmek filmek3
+'filmek' -> 'filmek3'
+'filmek/Shrek2.txt' -> 'filmek3/Shrek2.txt'
+'filmek/Read_player_one.txt' -> 'filmek3/Read_pla                                                      yer_one.txt'
+'filmek/Oppenheimer.txt' -> 'filmek3/Oppenheimer.                                                      txt'
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ rm --verbose --recursive filmek3/
+'filmek3/Shrek2.txt' törölve
+'filmek3/Read_player_one.txt' törölve
+'filmek3/Oppenheimer.txt' törölve
+'filmek3/' könyvtár törölve
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ pwd
+/afs/inf.elte.hu/user/k/kg/kgomoririchard/Dokumen                                                      tumok/Szamrend-24-25-1/gyak02/filmek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ ls -l
+összesen 1167
+-rw-r--r-- 1 kgomoririchard inf2016   41795 szept                                                       26 09:08 deadpoolandwolverine.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept                                                       26 08:45 Oppenheimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept                                                       26 08:34 Read_player_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 1151586 szept                                                       26 09:09 scrary_movie.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       5 szept                                                       26 08:46 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls -lű
+ls: érvénytelen kapcsoló -- "▒"
+További információkért adja ki a(z) „ls --help” p                                                      arancsot.
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek  filmek2  hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek filmek3
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek3/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls -l
+összesen 1167
+-rw-r--r-- 1 kgomoririchard inf2016   41795 szept                                                       26 09:16 deadpoolandwolverine.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept                                                       26 09:16 Oppenheimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept                                                       26 09:16 Read_player_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 1151586 szept                                                       26 09:16 scrary_movie.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       5 szept                                                       26 09:16 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mkdir eletrajzi
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mkdir vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mkdir drama
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls
+deadpoolandwolverine.jpg  Read_player_one.txt
+drama                     scrary_movie.jpg
+eletrajzi                 Shrek2.txt
+Oppenheimer.txt           vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv Oppenheimer.txt eletraj                                                      zi/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls eletrajzi/
+Oppenheimer.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls
+deadpoolandwolverine.jpg  scrary_movie.jpg
+drama                     Shrek2.txt
+eletrajzi                 vigjatek
+Read_player_one.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv Shrek2.txt vigjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls
+deadpoolandwolverine.jpg  Read_player_one.txt
+drama                     scrary_movie.jpg
+eletrajzi                 vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mkdir scifi
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv Read_player_one.txt sci                                                      fi/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv sc
+scifi/            scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv sc
+scifi/            scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv scrary_movie.jpg vigjat                                                      ek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls
+deadpoolandwolverine.jpg  eletrajzi  vigjatek
+drama                     scifi
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ mv deadpoolandwolverine.jp                                                      g  vigjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls
+drama  eletrajzi  scifi  vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls -l drama/
+összesen 0
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls -l vigjatek/
+összesen 1167
+-rw-r--r-- 1 kgomoririchard inf2016   41795 szept                                                       26 09:16 deadpoolandwolverine.jpg
+-rw-r--r-- 1 kgomoririchard inf2016 1151586 szept                                                       26 09:16 scrary_movie.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       5 szept                                                       26 09:16 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls
+drama  eletrajzi  scifi  vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ ls vigjatek/
+deadpoolandwolverine.jpg  Shrek2.txt
+scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek3$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ mkdir filmek4_vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek3/vigjatek/ filmek4_vi                                                      gjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek4_vigjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek$ ls
+vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek$ mkdir filmek5_vig                                                      jatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek$ cp -r filmek3/vig                                                      jatek/* filmek4_vigjatek/
+cp: stat 'filmek3/vigjatek/*' sikertelen: Nincs i                                                      lyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek$ cd filmek5_vigjat                                                      ek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$                                                       ls
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$                                                       ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$                                                       ls
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$                                                       cp -r filmek3/vigjatek/* filmek4_vigjatek/^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek/filmek5_vigjatek$                                                       cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek4_vigjatek$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek3/vigjatek/* filmek5_v                                                      igjatek/
+cp: a megadott cél ('filmek5_vigjatek/') nem köny                                                      vtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek3/vigjatek/* filmek5_v                                                      igjatek/^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek   filmek3           hello.txt
+filmek2  filmek4_vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ mkdir filmek5_vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek3/vigjatek/* filmek5_v                                                      igjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek5_vigjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek5_vigjatek$ ls
+deadpoolandwolverine.jpg  Shrek2.txt
+scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek5_vigjatek$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ mkdir filmek6
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek3/
+drama/     eletrajzi/ scifi/     vigjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cp -r filmek3/vigjatek/*.txt  film                                                      ek6/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek6/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek6$ ls
+Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek6$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek   filmek4_vigjatek  hello.txt
+filmek2  filmek5_vigjatek
+filmek3  filmek6
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd filmek5_vigjatek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek5_vigjatek$ ls
+deadpoolandwolverine.jpg  Shrek2.txt
+scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek5_vigjatek$ rm *.jpg -v
+'deadpoolandwolverine.jpg' törölve
+'scrary_movie.jpg' törölve
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02/filmek5_vigjatek$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls -l
+összesen 12
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 26                                                       09:09 filmek
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 26                                                       09:01 filmek2
+drwxr-xr-x 6 kgomoririchard inf2016 2048 szept 26                                                       09:19 filmek3
+drwxr-xr-x 4 kgomoririchard inf2016 2048 szept 26                                                       09:27 filmek4_vigjatek
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 26                                                       09:34 filmek5_vigjatek
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 26                                                       09:33 filmek6
+-rw-r--r-- 1 kgomoririchard inf2016    0 szept 26                                                       08:32 hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek   filmek4_vigjatek  hello.txt
+filmek2  filmek5_vigjatek
+filmek3  filmek6
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ rm -r filmek5_vigjatek/ filmek6/ -                                                      v
+'filmek5_vigjatek/Shrek2.txt' törölve
+'filmek5_vigjatek/' könyvtár törölve
+'filmek6/Shrek2.txt' törölve
+'filmek6/' könyvtár törölve
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ ls
+filmek   filmek3           hello.txt
+filmek2  filmek4_vigjatek
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ ls -l
+összesen 4
+drwxr-xr-x 2 kgomoririchard inf2016 2048 szept 12                                                       09:31 gyak01
+drwxr-xr-x 6 kgomoririchard inf2016 2048 szept 26                                                       09:35 gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ ls
+gyak01  gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ zip "gyak02_archive.zip" -r gyak02/
+  adding: gyak02/ (stored 0%)
+  adding: gyak02/hello.txt (stored 0%)
+  adding: gyak02/filmek/ (stored 0%)
+  adding: gyak02/filmek/Shrek2.txt (stored 0%)
+  adding: gyak02/filmek/Read_player_one.txt (stor                                                      ed 0%)
+  adding: gyak02/filmek/Oppenheimer.txt (stored 0                                                      %)
+  adding: gyak02/filmek/deadpoolandwolverine.jpg                                                       (deflated 0%)
+  adding: gyak02/filmek/scrary_movie.jpg (deflate                                                      d 2%)
+  adding: gyak02/filmek2/ (stored 0%)
+  adding: gyak02/filmek2/Shrek2.txt (stored 0%)
+  adding: gyak02/filmek2/Read_player_one.txt (sto                                                      red 0%)
+  adding: gyak02/filmek2/Oppenheimer.txt (stored                                                       0%)
+  adding: gyak02/filmek3/ (stored 0%)
+  adding: gyak02/filmek3/scifi/ (stored 0%)
+  adding: gyak02/filmek3/scifi/Read_player_one.tx                                                      t (stored 0%)
+  adding: gyak02/filmek3/eletrajzi/ (stored 0%)
+  adding: gyak02/filmek3/eletrajzi/Oppenheimer.tx                                                      t (stored 0%)
+  adding: gyak02/filmek3/vigjatek/ (stored 0%)
+  adding: gyak02/filmek3/vigjatek/Shrek2.txt (sto                                                      red 0%)
+  adding: gyak02/filmek3/vigjatek/scrary_movie.jp                                                      g (deflated 2%)
+  adding: gyak02/filmek3/vigjatek/deadpoolandwolv                                                      erine.jpg (deflated 0%)
+  adding: gyak02/filmek3/drama/ (stored 0%)
+  adding: gyak02/filmek4_vigjatek/ (stored 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/ (stor                                                      ed 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/Shrek2                                                      .txt (stored 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/deadpo                                                      olandwolverine.jpg (deflated 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/scrary                                                      _movie.jpg (deflated 2%)
+  adding: gyak02/filmek4_vigjatek/filmek5_vigjate                                                      k/ (stored 0%)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ ls
+gyak01  gyak02  gyak02_archive.zip
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ zip "gyak02_archive2.zip" -r gyak02/*
+  adding: gyak02/filmek/ (stored 0%)
+  adding: gyak02/filmek/Shrek2.txt (stored 0%)
+  adding: gyak02/filmek/Read_player_one.txt (stor                                                      ed 0%)
+  adding: gyak02/filmek/Oppenheimer.txt (stored 0                                                      %)
+  adding: gyak02/filmek/deadpoolandwolverine.jpg                                                       (deflated 0%)
+  adding: gyak02/filmek/scrary_movie.jpg (deflate                                                      d 2%)
+  adding: gyak02/filmek2/ (stored 0%)
+  adding: gyak02/filmek2/Shrek2.txt (stored 0%)
+  adding: gyak02/filmek2/Read_player_one.txt (sto                                                      red 0%)
+  adding: gyak02/filmek2/Oppenheimer.txt (stored                                                       0%)
+  adding: gyak02/filmek3/ (stored 0%)
+  adding: gyak02/filmek3/scifi/ (stored 0%)
+  adding: gyak02/filmek3/scifi/Read_player_one.tx                                                      t (stored 0%)
+  adding: gyak02/filmek3/eletrajzi/ (stored 0%)
+  adding: gyak02/filmek3/eletrajzi/Oppenheimer.tx                                                      t (stored 0%)
+  adding: gyak02/filmek3/vigjatek/ (stored 0%)
+  adding: gyak02/filmek3/vigjatek/Shrek2.txt (sto                                                      red 0%)
+  adding: gyak02/filmek3/vigjatek/scrary_movie.jp                                                      g (deflated 2%)
+  adding: gyak02/filmek3/vigjatek/deadpoolandwolv                                                      erine.jpg (deflated 0%)
+  adding: gyak02/filmek3/drama/ (stored 0%)
+  adding: gyak02/filmek4_vigjatek/ (stored 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/ (stor                                                      ed 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/Shrek2                                                      .txt (stored 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/deadpo                                                      olandwolverine.jpg (deflated 0%)
+  adding: gyak02/filmek4_vigjatek/vigjatek/scrary                                                      _movie.jpg (deflated 2%)
+  adding: gyak02/filmek4_vigjatek/filmek5_vigjate                                                      k/ (stored 0%)
+  adding: gyak02/hello.txt (stored 0%)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ zip "gyak02_archive2.zip" -r gyak02/* ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1$ cd gyak02
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-2                                                      4-25-1/gyak02$ zip "gyak02_archive3.zip" -r .
+  adding: hello.txt (stored 0%)
+  adding: filmek/ (stored 0%)
+  adding: filmek/Shrek2.txt (stored 0%)
+  adding: filmek/Read_player_one.txt (stored 0%)
+  adding: filmek/Oppenheimer.txt (stored 0%)
+  adding: filmek/deadpoolandwolverine.jpg (deflat                                                      ed 0%)
+  adding: filmek/scrary_movie.jpg (deflated 2%)
+  adding: filmek2/ (stored 0%)
+  adding: filmek2/Shrek2.txt (stored 0%)
+  adding: filmek2/Read_player_one.txt (stored 0%)
+  adding: filmek2/Oppenheimer.txt (stored 0%)
+  adding: filmek3/ (stored 0%)
+  adding: filmek3/scifi/ (stored 0%)
+  adding: filmek3/scifi/Read_player_one.txt (stor                                                      ed 0%)
+  adding: filmek3/eletrajzi/ (stored 0%)
+  adding: filmek3/eletrajzi/Oppenheimer.txt (stor                                                      ed 0%)
+  adding: filmek3/vigjatek/ (stored 0%)
+  adding: filmek3/vigjatek/Shrek2.txt (stored 0%)
+  adding: filmek3/vigjatek/scrary_movie.jpg (defl                                                      ated 2%)
+  adding: filmek3/vigjatek/deadpoolandwolverine.j                                                      pg (deflated 0%)
+  adding: filmek3/drama/ (stored 0%)
+  adding: filmek4_vigjatek/ (stored 0%)
+  adding: filmek4_vigjatek/vigjatek/ (stored 0%)
+  adding: filmek4_vigjatek/vigjatek/Shrek2.txt (s                                                      tored 0%)
+  adding: filmek4_vigjatek/vigjatek/deadpoolandwo                                                      lverine.jpg (deflated 0%)
+  adding: filmek4_vigjatek/vigjatek/scrary_movie.                                                      jpg (deflated 2%)
+  adding: filmek4_vigjatek/filmek5_vigjatek/ (sto                                                      red 0%)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$   
+
+

@@ -25,4 +25,9 @@ foci
    tartalma: Hajrá Kispest! 2
 ~~~
 
+4. scp
+
+~~~
+scp scrary_movie.jpg kgomoririchard@szamrend.inf.elte.hu:/afs/inf.elte.hu/user/k/kg/kgomoririchard/Dokumentumok/Szamrend-24-25-1/gyak02/filmek
+~~~
 
