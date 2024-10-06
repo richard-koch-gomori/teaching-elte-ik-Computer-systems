@@ -1,0 +1,865 @@
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          java/             temp/
+cpp/              symbolic/         tmp/
+enc/              szamalap/
+impro/            Szamrend-24-25-1/
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          java/             temp/
+cpp/              symbolic/         tmp/
+enc/              szamalap/
+impro/            Szamrend-24-25-1/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ dir
+gyak01  gyak02  gyak02_archive2.zip  gyak02_archive.zip
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ mkdir gy                                                                 ak03
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak0                                                                 3/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 kdir foci
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d foci/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci$ mkdir nb1
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci$ mkdir nb2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci$ cd nb1
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb1$ vim hajra_fradi.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb1$ vim hajra_fradi.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb1$ cat hajra_fradi.txt
+fefwtű
+gfjhrtsj
+Hajrá Fradi!
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb1$ cd ../nb2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb2$ echo "hello world"
+hello world
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb2$ echo alma
+alma
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb2$ echo alma > hajra_kispest.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb2$ cat hajra_kispest.txt
+alma
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb2$ ls ~
+Asztal        Letöltések  Nyilvános  untitled   VirtualBox VMs
+Dokumentumok  névtelen    public     untitled1  Zenék
+Képek         nohup.out   Sablonok   Videók
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/fo                                                                 ci/nb2$ cd
+kgomoririchard@szamrend:~$ cd public
+kgomoririchard@szamrend:~/public$ ls
+public_html
+kgomoririchard@szamrend:~/public$ cd public_html/
+kgomoririchard@szamrend:~/public/public_html$ cd ..
+kgomoririchard@szamrend:~/public$ cd ..
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          java/             temp/
+cpp/              symbolic/         tmp/
+enc/              szamalap/
+impro/            Szamrend-24-25-1/
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          java/             temp/
+cpp/              symbolic/         tmp/
+enc/              szamalap/
+impro/            Szamrend-24-25-1/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0                                                                
+gyak01/ gyak02/ gyak03/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0                                                                 3
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+foci
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak0                                                                 2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s
+filmek   filmek3           gyak02_archive3.zip
+filmek2  filmek4_vigjatek  hello.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ t                                                                 ar
+tar: Meg kell adnia a következő kapcsolók egyikét: „-Acdtrux”, „-                                                                 -delete” vagy „--test-label”
+További információkért próbálja kiadni a „tar --help” vagy „tar
+--usage” parancsokat.
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ t                                                                 ar
+tar: Meg kell adnia a következő kapcsolók egyikét: „-Acdtrux”, „-                                                                 -delete” vagy „--test-label”
+További információkért próbálja kiadni a „tar --help” vagy „tar
+--usage” parancsokat.
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ m                                                                 an tar
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ m                                                                 an ls
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ t                                                                 ar -czvf filmek.tar.gz filmek/
+filmek/
+filmek/Shrek2.txt
+filmek/Read_player_one.txt
+filmek/Oppenheimer.txt
+filmek/deadpoolandwolverine.jpg
+filmek/scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s
+filmek   filmek3           filmek.tar.gz        hello.txt
+filmek2  filmek4_vigjatek  gyak02_archive3.zip
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s -l
+összesen 4598
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 26 09:09 filmek
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 26 09:01 filmek                                                                 2
+drwxr-xr-x 6 kgomoririchard inf2016    2048 szept 26 09:19 filmek                                                                 3
+drwxr-xr-x 4 kgomoririchard inf2016    2048 szept 26 09:27 filmek                                                                 4_vigjatek
+-rw-r--r-- 1 kgomoririchard inf2016 1173872 okt    3 08:51 filmek                                                                 .tar.gz
+-rw-r--r-- 1 kgomoririchard inf2016 3524651 szept 26 09:44 gyak02                                                                 _archive3.zip
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept 26 08:32 hello.                                                                 txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 s -u
+-bash: ds: parancs nem található
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u
+1169    ./filmek
+3       ./filmek2
+2       ./filmek3/scifi
+2       ./filmek3/eletrajzi
+1169    ./filmek3/vigjatek
+2       ./filmek3/drama
+1177    ./filmek3
+1169    ./filmek4_vigjatek/vigjatek
+2       ./filmek4_vigjatek/filmek5_vigjatek
+1173    ./filmek4_vigjatek
+8114    .
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u -h
+1,2M    ./filmek
+3,0K    ./filmek2
+2,0K    ./filmek3/scifi
+2,0K    ./filmek3/eletrajzi
+1,2M    ./filmek3/vigjatek
+2,0K    ./filmek3/drama
+1,2M    ./filmek3
+1,2M    ./filmek4_vigjatek/vigjatek
+2,0K    ./filmek4_vigjatek/filmek5_vigjatek
+1,2M    ./filmek4_vigjatek
+8,0M    .
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u filmek.tar.gz
+1147    filmek.tar.gz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ m                                                                 an du
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u -BM filmek.tar.gz
+2M      filmek.tar.gz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u
+1169    ./filmek
+3       ./filmek2
+2       ./filmek3/scifi
+2       ./filmek3/eletrajzi
+1169    ./filmek3/vigjatek
+2       ./filmek3/drama
+1177    ./filmek3
+1169    ./filmek4_vigjatek/vigjatek
+2       ./filmek4_vigjatek/filmek5_vigjatek
+1173    ./filmek4_vigjatek
+8114    .
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u -h
+1,2M    ./filmek
+3,0K    ./filmek2
+2,0K    ./filmek3/scifi
+2,0K    ./filmek3/eletrajzi
+1,2M    ./filmek3/vigjatek
+2,0K    ./filmek3/drama
+1,2M    ./filmek3
+1,2M    ./filmek4_vigjatek/vigjatek
+2,0K    ./filmek4_vigjatek/filmek5_vigjatek
+1,2M    ./filmek4_vigjatek
+8,0M    .
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s -l filmek
+összesen 1167
+-rw-r--r-- 1 kgomoririchard inf2016   41795 szept 26 09:08 deadpo                                                                 olandwolverine.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept 26 08:45 Oppenh                                                                 eimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept 26 08:34 Read_p                                                                 layer_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 1151586 szept 26 09:09 scrary                                                                 _movie.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       5 szept 26 08:46 Shrek2                                                                 .txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s -l filmek2
+összesen 1
+-rw-r--r-- 1 kgomoririchard inf2016  0 szept 26 08:50 Oppenheimer                                                                 .txt
+-rw-r--r-- 1 kgomoririchard inf2016  0 szept 26 08:50 Read_player                                                                 _one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 10 szept 26 09:00 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s -l filmek
+összesen 1167
+-rw-r--r-- 1 kgomoririchard inf2016   41795 szept 26 09:08 deadpo                                                                 olandwolverine.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept 26 08:45 Oppenh                                                                 eimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept 26 08:34 Read_p                                                                 layer_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 1151586 szept 26 09:09 scrary                                                                 _movie.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       5 szept 26 08:46 Shrek2                                                                 .txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u -h
+1,2M    ./filmek
+3,0K    ./filmek2
+2,0K    ./filmek3/scifi
+2,0K    ./filmek3/eletrajzi
+1,2M    ./filmek3/vigjatek
+2,0K    ./filmek3/drama
+1,2M    ./filmek3
+1,2M    ./filmek4_vigjatek/vigjatek
+2,0K    ./filmek4_vigjatek/filmek5_vigjatek
+1,2M    ./filmek4_vigjatek
+8,0M    .
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u
+filmek/              filmek4_vigjatek/    hello.txt
+filmek2/             filmek.tar.gz
+filmek3/             gyak02_archive3.zip
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u filmek.tar.gz
+1147    filmek.tar.gz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ m                                                                 an du
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ d                                                                 u -BM filmek.tar.gz
+2M      filmek.tar.gz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s -la
+összesen 4602
+drwxr-xr-x 6 kgomoririchard inf2016    2048 okt    3 08:51 .
+drwxr-xr-x 5 kgomoririchard inf2016    2048 okt    3 08:30 ..
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 26 09:09 filmek
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 26 09:01 filmek                                                                 2
+drwxr-xr-x 6 kgomoririchard inf2016    2048 szept 26 09:19 filmek                                                                 3
+drwxr-xr-x 4 kgomoririchard inf2016    2048 szept 26 09:27 filmek                                                                 4_vigjatek
+-rw-r--r-- 1 kgomoririchard inf2016 1173872 okt    3 08:51 filmek                                                                 .tar.gz
+-rw-r--r-- 1 kgomoririchard inf2016 3524651 szept 26 09:44 gyak02                                                                 _archive3.zip
+-rw-r--r-- 1 kgomoririchard inf2016       0 szept 26 08:32 hello.                                                                 txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s
+filmek   filmek3           filmek.tar.gz        hello.txt
+filmek2  filmek4_vigjatek  gyak02_archive3.zip
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ c                                                                 p filmek.tar.gz  ../gyak03/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ l                                                                 s
+filmek   filmek3           filmek.tar.gz        hello.txt
+filmek2  filmek4_vigjatek  gyak02_archive3.zip
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak02$ c                                                                 d ../gyak03
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek.tar.gz  foci
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 unzip
+gzip: compressed data not read from a terminal. Use -f to force d                                                                 ecompression.
+For help, type: gzip -h
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 unzip filmek.tar.gz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek.tar  foci
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ t                                                                 ar -xvf filmek.tar
+filmek/
+filmek/Shrek2.txt
+filmek/Read_player_one.txt
+filmek/Oppenheimer.txt
+filmek/deadpoolandwolverine.jpg
+filmek/scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ t                                                                 ree
+-bash: tree: parancs nem található
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s /
+afs   h           initrd.img.old  lost+found  root  tmp
+bin   h1          lib             media       run   usr
+boot  h2          lib32           mnt         sbin  var
+dev   home        lib64           opt         srv   vmlinuz
+etc   initrd.img  libx32          proc        sys   vmlinuz.old
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d /sbin/
+kgomoririchard@szamrend:/sbin$ ls
+acpi_available       ifdown             plipconfig
+afsd                 ifquery            poweroff
+agetty               ifup               quotacheck
+apm_available        init               quotaoff
+badblocks            insmod             quotaon
+blkdeactivate        insserv            rarp
+blkdiscard           installkernel      raw
+blkid                ip                 reboot
+blockdev             ip6tables          request-key
+bridge               ip6tables-restore  resize2fs
+cfdisk               ip6tables-save     rmmod
+chcpu                ipmaddr            route
+ctrlaltdel           iptables           rpcbind
+debugfs              iptables-restore   rpc.statd
+depmod               iptables-save      rtacct
+devlink              iptunnel           rtmon
+dhclient             isosize            runlevel
+dhclient-script      kbdrate            runuser
+discover             key.dns_resolver   sfdisk
+discover-modprobe    killall5           shadowconfig
+discover-pkginstall  ldconfig           showmount
+dmsetup              logsave            shutdown
+dmstats              losetup            slattach
+dumpe2fs             lsmod              sm-notify
+e2fsck               mii-tool           start-stop-daemon
+e2image              mke2fs             sulogin
+e2label              mkfs               swaplabel
+e2undo               mkfs.bfs           swapoff
+fdisk                mkfs.cramfs        swapon
+findfs               mkfs.ext2          switch_root
+fsck                 mkfs.ext3          sysctl
+fsck.cramfs          mkfs.ext4          tc
+fsck.ext2            mkfs.minix         telinit
+fsck.ext3            mkhomedir_helper   tipc
+fsck.ext4            mkswap             tune2fs
+fsck.minix           modinfo            udevadm
+fsck.nfs             modprobe           umount.nfs
+fsfreeze             mount.nfs          umount.nfs4
+fstab-decode         mount.nfs4         unix_chkpwd
+fstrim               nameif             unix_update
+getty                on_ac_power        wipefs
+halt                 osd_login          xtables-multi
+hdparm               pam_tally          zramctl
+hwclock              pam_tally2
+ifconfig             pivot_root
+kgomoririchard@szamrend:/sbin$ cls -la /sbin/
+-bash: cls: parancs nem található
+kgomoririchard@szamrend:/sbin$ ls -la /sbin/
+összesen 6420
+drwxr-xr-x  2 root root     4096 júl    4  2022 .
+drwxr-xr-x 27 root root     4096 jan   25  2023 ..
+-rwxr-xr-x  1 root root      112 máj    1  2014 acpi_available
+-rwxr-xr-x  1 root root   197048 szept 21  2018 afsd
+-rwxr-xr-x  1 root root    57680 márc   7  2018 agetty
+-rwxr-xr-x  1 root root      125 máj    1  2014 apm_available
+-rwxr-xr-x  1 root root    26632 júl   25  2020 badblocks
+-rwxr-xr-x  1 root root    13679 márc  17  2017 blkdeactivate
+-rwxr-xr-x  1 root root    27264 márc   7  2018 blkdiscard
+-rwxr-xr-x  1 root root    85408 márc   7  2018 blkid
+-rwxr-xr-x  1 root root    35624 márc   7  2018 blockdev
+-rwxr-xr-x  1 root root    72648 nov   24  2017 bridge
+-rwxr-xr-x  1 root root    90472 márc   7  2018 cfdisk
+-rwxr-xr-x  1 root root    23128 márc   7  2018 chcpu
+-rwxr-xr-x  1 root root    19032 márc   7  2018 ctrlaltdel
+-rwxr-xr-x  1 root root   218624 júl   25  2020 debugfs
+lrwxrwxrwx  1 root root        9 dec   26  2016 depmod -> /bin/km                                                                 od
+-rwxr-xr-x  1 root root    43680 nov   24  2017 devlink
+-rwxr-xr-x  1 root root   487728 jún    3  2021 dhclient
+-rwxr-xr-x  1 root root    13693 jún    3  2021 dhclient-script
+-rwxr-xr-x  1 root root    19672 febr  26  2018 discover
+-rwxr-xr-x  1 root root     5014 febr  26  2018 discover-modprobe
+-rwxr-xr-x  1 root root     5796 febr  26  2018 discover-pkginsta                                                                 ll
+-rwxr-xr-x  1 root root   141704 márc  17  2017 dmsetup
+lrwxrwxrwx  1 root root        7 márc  17  2017 dmstats -> dmsetu                                                                 p
+-rwxr-xr-x  1 root root    26704 júl   25  2020 dumpe2fs
+-rwxr-xr-x  1 root root   309792 júl   25  2020 e2fsck
+-rwxr-xr-x  1 root root    34896 júl   25  2020 e2image
+lrwxrwxrwx  1 root root        7 júl   25  2020 e2label -> tune2f                                                                 s
+-rwxr-xr-x  1 root root    18504 júl   25  2020 e2undo
+-rwxr-xr-x  1 root root   118056 márc   7  2018 fdisk
+-rwxr-xr-x  1 root root    10568 márc   7  2018 findfs
+-rwxr-xr-x  1 root root    48328 márc   7  2018 fsck
+-rwxr-xr-x  1 root root    35680 márc   7  2018 fsck.cramfs
+lrwxrwxrwx  1 root root        6 júl   25  2020 fsck.ext2 -> e2fs                                                                 ck
+lrwxrwxrwx  1 root root        6 júl   25  2020 fsck.ext3 -> e2fs                                                                 ck
+lrwxrwxrwx  1 root root        6 júl   25  2020 fsck.ext4 -> e2fs                                                                 ck
+-rwxr-xr-x  1 root root    85088 márc   7  2018 fsck.minix
+-rwxr-xr-x  1 root root      333 febr  12  2017 fsck.nfs
+-rwxr-xr-x  1 root root    10680 márc   7  2018 fsfreeze
+-rwxr-xr-x  1 root root     6352 febr  12  2017 fstab-decode
+-rwxr-xr-x  1 root root    43992 márc   7  2018 fstrim
+lrwxrwxrwx  1 root root        6 márc   7  2018 getty -> agetty
+-rwxr-xr-x  1 root root    18952 febr  12  2017 halt
+-rwxr-xr-x  1 root root   123064 máj   15  2018 hdparm
+-rwxr-xr-x  1 root root    64528 márc   7  2018 hwclock
+-rwxr-xr-x  1 root root    79744 dec   26  2016 ifconfig
+lrwxrwxrwx  1 root root        4 jan   30  2017 ifdown -> ifup
+lrwxrwxrwx  1 root root        4 jan   30  2017 ifquery -> ifup
+-rwxr-xr-x  1 root root    75768 jan   30  2017 ifup
+-rwxr-xr-x  1 root root    40728 febr  12  2017 init
+lrwxrwxrwx  1 root root        9 dec   26  2016 insmod -> /bin/km                                                                 od
+-rwxr-xr-x  1 root root    56584 júl   13  2016 insserv
+-rwxr-xr-x  1 root root     2638 ápr    2  2017 installkernel
+lrwxrwxrwx  1 root root        7 nov   24  2017 ip -> /bin/ip
+lrwxrwxrwx  1 root root       13 ápr   12  2017 ip6tables -> xtab                                                                 les-multi
+lrwxrwxrwx  1 root root       13 ápr   12  2017 ip6tables-restore                                                                  -> xtables-multi
+lrwxrwxrwx  1 root root       13 ápr   12  2017 ip6tables-save ->                                                                  xtables-multi
+-rwxr-xr-x  1 root root    18856 dec   26  2016 ipmaddr
+lrwxrwxrwx  1 root root       13 ápr   12  2017 iptables -> xtabl                                                                 es-multi
+lrwxrwxrwx  1 root root       13 ápr   12  2017 iptables-restore                                                                  -> xtables-multi
+lrwxrwxrwx  1 root root       13 ápr   12  2017 iptables-save ->                                                                  xtables-multi
+-rwxr-xr-x  1 root root    22944 dec   26  2016 iptunnel
+-rwxr-xr-x  1 root root    23160 márc   7  2018 isosize
+-rwxr-xr-x  1 root root    10608 jan    5  2016 kbdrate
+-rwxr-xr-x  1 root root    18504 máj    1  2016 key.dns_resolver
+-rwxr-xr-x  1 root root    23224 febr  12  2017 killall5
+-rwxr-xr-x  1 root root   881912 febr   6  2019 ldconfig
+-rwxr-xr-x  1 root root    10240 júl   25  2020 logsave
+-rwxr-xr-x  1 root root    81120 márc   7  2018 losetup
+lrwxrwxrwx  1 root root        9 dec   26  2016 lsmod -> /bin/kmo                                                                 d
+-rwxr-xr-x  1 root root    19368 dec   26  2016 mii-tool
+-rwxr-xr-x  1 root root   125248 júl   25  2020 mke2fs
+-rwxr-xr-x  1 root root    10664 márc   7  2018 mkfs
+-rwxr-xr-x  1 root root    31400 márc   7  2018 mkfs.bfs
+-rwxr-xr-x  1 root root    35456 márc   7  2018 mkfs.cramfs
+lrwxrwxrwx  1 root root        6 júl   25  2020 mkfs.ext2 -> mke2                                                                 fs
+lrwxrwxrwx  1 root root        6 júl   25  2020 mkfs.ext3 -> mke2                                                                 fs
+lrwxrwxrwx  1 root root        6 júl   25  2020 mkfs.ext4 -> mke2                                                                 fs
+-rwxr-xr-x  1 root root    81016 márc   7  2018 mkfs.minix
+-rwxr-xr-x  1 root root    18848 máj   27  2017 mkhomedir_helper
+-rwxr-xr-x  1 root root    81144 márc   7  2018 mkswap
+lrwxrwxrwx  1 root root        9 dec   26  2016 modinfo -> /bin/k                                                                 mod
+lrwxrwxrwx  1 root root        9 dec   26  2016 modprobe -> /bin/                                                                 kmod
+-rwsr-xr-x  1 root root   110760 jún   24  2020 mount.nfs
+lrwxrwxrwx  1 root root        9 jún   24  2020 mount.nfs4 -> mou                                                                 nt.nfs
+-rwxr-xr-x  1 root root    14944 dec   26  2016 nameif
+-rwxr-xr-x  1 root root     2251 dec    2  2009 on_ac_power
+-rwxr-xr-x  1 root root     2586 jún   24  2020 osd_login
+-rwxr-xr-x  1 root root    10592 máj   27  2017 pam_tally
+-rwxr-xr-x  1 root root    14776 máj   27  2017 pam_tally2
+-rwxr-xr-x  1 root root    10640 márc   7  2018 pivot_root
+-rwxr-xr-x  1 root root    10584 dec   26  2016 plipconfig
+lrwxrwxrwx  1 root root        4 febr  12  2017 poweroff -> halt
+-rwxr-xr-x  1 root root   106904 febr  24  2018 quotacheck
+lrwxrwxrwx  1 root root        7 febr  24  2018 quotaoff -> quota                                                                 on
+-rwxr-xr-x  1 root root    77680 febr  24  2018 quotaon
+-rwxr-xr-x  1 root root    33792 dec   26  2016 rarp
+-rwxr-xr-x  1 root root    14784 márc   7  2018 raw
+lrwxrwxrwx  1 root root        4 febr  12  2017 reboot -> halt
+-rwxr-xr-x  1 root root    18424 máj    1  2016 request-key
+-rwxr-xr-x  1 root root    59464 júl   25  2020 resize2fs
+lrwxrwxrwx  1 root root        9 dec   26  2016 rmmod -> /bin/kmo                                                                 d
+-rwxr-xr-x  1 root root    66600 dec   26  2016 route
+-rwxr-xr-x  1 root root    52520 máj    5  2017 rpcbind
+-rwxr-xr-x  1 root root    82056 jún   24  2020 rpc.statd
+-rwxr-xr-x  1 root root    41720 nov   24  2017 rtacct
+-rwxr-xr-x  1 root root    47800 nov   24  2017 rtmon
+-rwxr-xr-x  1 root root     6360 febr  12  2017 runlevel
+-rwxr-xr-x  1 root root    31816 márc   7  2018 runuser
+-rwxr-xr-x  1 root root   106656 márc   7  2018 sfdisk
+-rwxr-xr-x  1 root root      885 márc  17  2021 shadowconfig
+-rwxr-xr-x  1 root root    19224 jún   24  2020 showmount
+-rwxr-xr-x  1 root root    23368 febr  12  2017 shutdown
+-rwxr-xr-x  1 root root    37984 dec   26  2016 slattach
+-rwxr-xr-x  1 root root    52456 jún   24  2020 sm-notify
+-rwxr-xr-x  1 root root    31848 máj   24  2022 start-stop-daemon
+-rwxr-xr-x  1 root root    44208 márc   7  2018 sulogin
+-rwxr-xr-x  1 root root    14848 márc   7  2018 swaplabel
+-rwxr-xr-x  1 root root    19104 márc   7  2018 swapoff
+-rwxr-xr-x  1 root root    48488 márc   7  2018 swapon
+-rwxr-xr-x  1 root root    14800 márc   7  2018 switch_root
+-rwxr-xr-x  1 root root    22600 máj   17  2018 sysctl
+-rwxr-xr-x  1 root root   387632 nov   24  2017 tc
+lrwxrwxrwx  1 root root        4 febr  12  2017 telinit -> init
+-rwxr-xr-x  1 root root    55856 nov   24  2017 tipc
+-rwxr-xr-x  1 root root   100608 júl   25  2020 tune2fs
+lrwxrwxrwx  1 root root       12 jún   29  2022 udevadm -> /bin/u                                                                 devadm
+lrwxrwxrwx  1 root root        9 jún   24  2020 umount.nfs -> mou                                                                 nt.nfs
+lrwxrwxrwx  1 root root        9 jún   24  2020 umount.nfs4 -> mo                                                                 unt.nfs
+-rwxr-sr-x  1 root shadow  35592 máj   27  2017 unix_chkpwd
+-rwxr-xr-x  1 root root    35528 máj   27  2017 unix_update
+-rwxr-xr-x  1 root root    31536 márc   7  2018 wipefs
+-rwxr-xr-x  1 root root    94968 ápr   12  2017 xtables-multi
+-rwxr-xr-x  1 root root    93512 márc   7  2018 zramctl
+kgomoririchard@szamrend:/sbin$ cd ..
+kgomoririchard@szamrend:/$ ls -l
+összesen 1246
+drwxr-xr-x 409 root root   18432 jan    1  1970 afs
+drwxr-xr-x   2 root root    4096 júl    4  2022 bin
+drwxr-xr-x   3 root root    4096 júl    4  2022 boot
+drwxr-xr-x  13 root root    2920 aug   12 15:48 dev
+drwxr-xr-x 106 root root    4096 jún    3 23:22 etc
+lrwxrwxrwx   1 root root       2 febr  11  2019 h -> h1
+drwxr-xr-x  18 root root    4096 szept 11  2019 h1
+drwxr-xr-x   6 root root    4096 máj    1  2022 h2
+drwxr-xr-x   3 root root    4096 febr  11  2019 home
+lrwxrwxrwx   1 root root      30 júl    4  2022 initrd.img -> boo                                                                 t/initrd.img-4.9.0-19-amd64
+lrwxrwxrwx   1 root root      30 júl    4  2022 initrd.img.old ->                                                                  boot/initrd.img-4.9.0-18-amd64
+drwxr-xr-x  15 root root    4096 júl   25  2021 lib
+drwxr-xr-x   2 root root    4096 jún    7  2019 lib32
+drwxr-xr-x   2 root root    4096 jún    7  2019 lib64
+drwxr-xr-x   2 root root   12288 jún    7  2019 libx32
+drwx------   2 root root   16384 febr  11  2019 lost+found
+drwxr-xr-x   3 root root    4096 febr  11  2019 media
+drwxr-xr-x   2 root root    4096 febr  11  2019 mnt
+drwxr-xr-x   2 root root    4096 febr  11  2019 opt
+dr-xr-xr-x 424 root root       0 aug   12 15:48 proc
+drwx------  12 root root    4096 máj    7 13:00 root
+drwxr-xr-x  16 root root     680 okt    3 09:07 run
+drwxr-xr-x   2 root root    4096 júl    4  2022 sbin
+drwxr-xr-x   2 root root    4096 febr  11  2019 srv
+dr-xr-xr-x  13 root root       0 szept 12 09:09 sys
+drwxrwxrwt 111 root root 1155072 okt    3 09:07 tmp
+drwxr-xr-x  12 root root    4096 febr  14  2019 usr
+drwxr-xr-x  12 root root    4096 febr  11  2019 var
+lrwxrwxrwx   1 root root      27 júl    4  2022 vmlinuz -> boot/v                                                                 mlinuz-4.9.0-19-amd64
+lrwxrwxrwx   1 root root      27 júl    4  2022 vmlinuz.old -> bo                                                                 ot/vmlinuz-4.9.0-18-amd64
+kgomoririchard@szamrend:/$ ls
+afs   h           initrd.img.old  lost+found  root  tmp
+bin   h1          lib             media       run   usr
+boot  h2          lib32           mnt         sbin  var
+dev   home        lib64           opt         srv   vmlinuz
+etc   initrd.img  libx32          proc        sys   vmlinuz.old
+kgomoririchard@szamrend:/$ cd media/
+kgomoririchard@szamrend:/media$ ls
+cdrom  cdrom0
+kgomoririchard@szamrend:/media$ cd ..
+kgomoririchard@szamrend:/$ cd ..
+kgomoririchard@szamrend:/$ ls
+afs   h           initrd.img.old  lost+found  root  tmp
+bin   h1          lib             media       run   usr
+boot  h2          lib32           mnt         sbin  var
+dev   home        lib64           opt         srv   vmlinuz
+etc   initrd.img  libx32          proc        sys   vmlinuz.old
+kgomoririchard@szamrend:/$ cd
+kgomoririchard@szamrend:~$ pwd
+/afs/inf.elte.hu/user/k/kg/kgomoririchard
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ pwd
+/afs/inf.elte.hu/user/k/kg/kgomoririchard/Dokumentumok/Szamrend-2                                                                 4-25-1
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak0                                                                 3/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek  filmek.tar  foci
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ v                                                                 im a.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ v                                                                 im programminglang.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at programminglang.txt
+C#
+C++
+C
+Ada
+Pawn
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ v                                                                 im filmek.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+a.txt  filmek  filmek.tar  filmek.txt  foci  programminglang.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at a.txt
+1
+2
+3
+4
+5
+fdgh
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 v a.txt szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ v                                                                 im szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s -lű
+ls: érvénytelen kapcsoló -- "▒"
+További információkért adja ki a(z) „ls --help” parancsot.
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s -l
+összesen 1187
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 26 09:09 filmek
+-rw-r--r-- 1 kgomoririchard inf2016 1208320 okt    3 08:58 filmek                                                                 .tar
+-rw-r--r-- 1 kgomoririchard inf2016      62 okt    3 09:14 filmek                                                                 .txt
+drwxr-xr-x 4 kgomoririchard inf2016    2048 okt    3 08:31 foci
+-rw-r--r-- 1 kgomoririchard inf2016      19 okt    3 09:13 progra                                                                 mminglang.txt
+-rw-r--r-- 1 kgomoririchard inf2016      12 okt    3 09:15 szamok                                                                 .txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek      filmek.txt  programminglang.txt
+filmek.tar  foci        szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 kdir munka
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 v szamok.txt munka/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek  filmek.tar  filmek.txt  foci  munka  programminglang.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s munka/
+szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ ls
+gyak01  gyak02  gyak02_archive2.zip  gyak02_archive.zip  gyak03
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak0                                                                 3
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek  filmek.tar  filmek.txt  foci  munka  programminglang.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 v programminglang.txt munka/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 v filmek.txt munka/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d munka/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ ls
+filmek.txt  programminglang.txt  szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ m                                                                 kdir targyak
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d targyak/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ vim szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ vim dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ cat dimat.txt
+Grafok
+Logika
+Halmazok
+Relaciok
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ ls
+dimat.txt  szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ cd .
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek  filmek.tar  foci  munka  targyak
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind
+.
+./foci
+./foci/nb1
+./foci/nb1/hajra_fradi.txt
+./foci/nb2
+./foci/nb2/hajra_kispest.txt
+./filmek
+./filmek/Shrek2.txt
+./filmek/Read_player_one.txt
+./filmek/Oppenheimer.txt
+./filmek/deadpoolandwolverine.jpg
+./filmek/scrary_movie.jpg
+./filmek.tar
+./munka
+./munka/szamok.txt
+./munka/programminglang.txt
+./munka/filmek.txt
+./targyak
+./targyak/dimat.txt
+./targyak/szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name dimat.txt
+./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ t                                                                 ree
+-bash: tree: parancs nem található
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ l                                                                 s
+filmek  filmek.tar  foci  munka  targyak
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d targyak/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ ls
+dimat.txt  szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/ta                                                                 rgyak$ cd ../munka/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ ls
+filmek.txt  programminglang.txt  szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name dimat.txt
+./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt
+./foci/nb1/hajra_fradi.txt
+./foci/nb2/hajra_kispest.txt
+./filmek/Shrek2.txt
+./filmek/Read_player_one.txt
+./filmek/Oppenheimer.txt
+./munka/szamok.txt
+./munka/programminglang.txt
+./munka/filmek.txt
+./targyak/dimat.txt
+./targyak/szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ w                                                                 c ./targyak/dimat.txt
+ 5  4 33 ./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ w                                                                 c --line ./targyak/dimat.txt
+5 ./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ w                                                                 c -l ./targyak/dimat.txt
+5 ./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./targyak/dimat.txt
+Grafok
+Logika
+Halmazok
+Relaciok
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 d munka/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ mv filmek.txt filmek.log
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ ls -l
+összesen 3
+-rw-r--r-- 1 kgomoririchard inf2016 62 okt    3 09:14 filmek.log
+-rw-r--r-- 1 kgomoririchard inf2016 19 okt    3 09:13 programming                                                                 lang.txt
+-rw-r--r-- 1 kgomoririchard inf2016 12 okt    3 09:15 szamok.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03/mu                                                                 nka$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt
+./foci/nb1/hajra_fradi.txt
+./foci/nb2/hajra_kispest.txt
+./filmek/Shrek2.txt
+./filmek/Read_player_one.txt
+./filmek/Oppenheimer.txt
+./munka/szamok.txt
+./munka/programminglang.txt
+./targyak/dimat.txt
+./targyak/szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt
+./foci/nb1/hajra_fradi.txt
+./foci/nb2/hajra_kispest.txt
+./filmek/Shrek2.txt
+./filmek/Read_player_one.txt
+./filmek/Oppenheimer.txt
+./munka/szamok.txt
+./munka/programminglang.txt
+./targyak/dimat.txt
+./targyak/szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt -exec cat {} \;
+fefwtű
+gfjhrtsj
+Hajrá Fradi!
+alma
+vmi1
+1
+2
+3
+4
+5
+
+
+C#
+C++
+C
+Ada
+Pawn
+
+Grafok
+Logika
+Halmazok
+Relaciok
+
+Unix
+Windows
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt -exec cat {} \; ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./
+filmek/     filmek.tar  foci/       munka/      targyak/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./
+filmek/     filmek.tar  foci/       munka/      targyak/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./
+filmek/     filmek.tar  foci/       munka/      targyak/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./targyak/dimat.txt
+Grafok
+Logika
+Halmazok
+Relaciok
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./targyak/dimat.txt | ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ w                                                                 c -l ./targyak/dimat.txt
+5 ./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./targyak/dimat.txt
+Grafok
+Logika
+Halmazok
+Relaciok
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ c                                                                 at ./targyak/dimat.txt  | wc -l
+5
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt -exec cat {} \;
+fefwtű
+gfjhrtsj
+Hajrá Fradi!
+alma
+vmi1
+1
+2
+3
+4
+5
+
+
+C#
+C++
+C
+Ada
+Pawn
+
+Grafok
+Logika
+Halmazok
+Relaciok
+
+Unix
+Windows
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.txt -exec cat {} \;  | wc -l
+26
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ f                                                                 ind -name *.log -exec cat {} \;  | wc -l
+7
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 rep -rnw targyak/ -e Graf
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 rep -rnw targyak/ -e Grafok
+targyak/dimat.txt:1:Grafok
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 rep -rnw targyak/ -e Grafok --color=red
+Használat: grep [KAPCSOLÓ]… MINTA [FÁJL]…
+A MINTA keresése minden FÁJLBAN vagy a szabványos bemeneten.
+A MINTA egy alapszintű reguláris kifejezés (BRE).
+Példa: grep -i 'szia világ' menu.h main.c
+
+Reguláris kifejezés kiválasztása és értelmezése:
+  -E, --extended-regexp     a MINTA kiterjesztett reguláris kifej                                                                 ezés (ERE)
+  -F, --fixed-strings       a MINTA újsorokkal elválasztott karak                                                                 terláncok
+                              halmaza
+  -G, --basic-regexp        a MINTA alapvető reguláris kifejezés                                                                  (BRE)
+  -P, --perl-regexp         a MINTA Perl reguláris kifejezés
+  -e, --regexp=MINTA        a MINTA használata illesztésre
+  -f, --file=FÁJL           a MINTA beolvasása a FÁJLBÓL
+  -i, --ignore-case         a kis- és nagybetűk megegyeznek
+  -w, --word-regexp         a MINTA csak egész szóra illeszkedik
+  -x, --line-regexp         a MINTA csak egész sorra illeszkedik
+  -z, --null-data           az adat sorai 0 bájtra végződnek, nem                                                                  újsorra
+
+Egyéb:
+  -s, --no-messages         hibaüzenetek elnémítása
+  -v, --invert-match        a nem illeszkedő sorok kiválogatása
+  -V, --version             verzióinformációk kiírása és kilépés
+      --help                ezen súgó kiírása és kilépés
+
+Kimenet beállításai:
+  -m, --max-count=SZÁM      megáll SZÁM találat után
+  -b, --byte-offset         a kimenetben szerepel a sor helye is                                                                  (bájteltolás)
+  -n, --line-number         a kimenetben szerepel a sor száma is
+      --line-buffered       kimenet kiürítése minden sor után
+  -H, --with-filename       fájlnév kiírása minden találathoz
+  -h, --no-filename         a kimenetbe nem írja ki a fájlnév elő                                                                 tagot
+      --label=CÍMKE         a CÍMKE kiírása fájlnévként a szabván                                                                 yos bemenet
+                              használatakor
+  -o, --only-matching       a sornak csak a MINTÁRA illeszkedő ré                                                                 szét írja ki
+  -q, --quiet, --silent     minden szokványos kimenet elhagyása
+      --binary-files=TÍPUS  a bináris fájlokat adott TÍPUSÚNAK ve                                                                 szi, a TÍPUS
+                              a „binary”, „text” vagy „without-ma                                                                 tch” egyike
+  -a, --text                ugyanaz, mint a --binary-files=text
+  -I                        ugyanaz, mint a --binary-files=withou                                                                 t-match
+  -d, --directories=MŰVELET mi történjen a könyvtárakkal; a MŰVEL                                                                 ET
+                              a „read”, „recurse” vagy „skip” egy                                                                 ike
+  -D, --devices=MŰVELET     mi történjen az eszközökkel, FIFO-kka                                                                 l és
+                              foglalatokkal, a MŰVELET a „read” v                                                                 agy „skip”
+                              egyike
+  -r, --recursive           ugyanaz, mint a --directories=recurse
+  -R, --dereference-recursive hasonló, de követi az összes szimli                                                                 nket
+      --include=FÁJLMINTA   csak a FÁJLMINTÁRA illeszkedő fájloka                                                                 t vizsgálja
+      --exclude=FÁJLMINTA   a FÁJLMINTÁRA illeszkedő fájlok kihag                                                                 yása
+      --exclude-from=FÁJL   a FÁJLBAN található mintákra illeszke                                                                 dő
+                              fájlok kihagyása.
+      --exclude-dir=MINTA   a MINTÁRA illeszkedő könyvtárak kihag                                                                 yása
+  -L, --files-without-match csak azon fájlnevek kiírása, ahol nem                                                                  volt találat
+  -l, --files-with-matches  csak azon fájlnevek kiírása, ahol vol                                                                 t találat
+  -c, --count               csak az illeszkedő sorok számának kií                                                                 rása, FÁJLONKÉNT
+  -T, --initial-tab         sorok feltöltése tabokkal (ha szükség                                                                 es)
+  -Z, --null                0 bájt írása a FÁJLNÉV után
+
+Szövegkörnyezet beállításai:
+  -B, --before-context=SZÁM SZÁM db. sor kiírása a találat előtti                                                                  környezetből
+  -A, --after-context=SZÁM  SZÁM db. sor kiírása a találat utáni                                                                  környezetből
+  -C, -- context=SZÁM       SZÁM darab sor kiírása a környezetből
+  -SZÁM                     ugyanaz, mint a --context=SZÁM
+      --color[=EKKOR],
+      --colour[=EKKOR]      az illeszkedő karakterláncot beszínez                                                                 i
+                              az EKKOR lehet „always”, „never” va                                                                 gy „auto”
+  -U, --binary              nem vágja le a CR karaktereket sor vé                                                                 gén
+                              (MSDOS/Windows)
+  -u, --unix-byte-offsets   eltolások kiírása, mintha nem lenne o                                                                 tt a CR
+                              (MSDOS/Windows)
+
+Az „egrep” jelentése „grep -E”. Az „fgrep” jelentése „grep -F”.
+A közvetlen hívás „egrep” vagy „fgrep” formában elavult.
+Ha a FÁJL a -, akkor a szabványos bemenetről olvas. Ha nincs mega                                                                 dva FÁJL,
+és a parancssori -r meg van adva, a . egyébként a - olvasása. Ha                                                                  kevesebb
+mint két FÁJL van megadva, a -h kapcsolót feltételezi. A kilépési
+érték: 0, ha van találat, egyébként 1, ha hiba történt és a -q ni                                                                 ncs megadva: 2
+
+A hibák a(z) bug-grep@gnu.org címen jelenthetők.
+A(z) GNU grep honlapja: <http://www.gnu.org/software/grep/>
+Általános segítség a GNU szoftverek használatához: <http://www.gn                                                                 u.org/gethelp/>
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 rep -rnw targyak/ -e Grafok
+targyak/dimat.txt:1:Grafok
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 rep -rw targyak/ -e Grafok
+targyak/dimat.txt:Grafok
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ g                                                                 rep -rw targyak/ -e Relaciok
+targyak/dimat.txt:Relaciok
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+
+
+
+/Szamrend-24-25-1/gyak03
+ - filmek
+ - filmek.tar
+ - foci
+ - munka
+    - filmek.txt
+    - programminglang.txt
+    - szamok.txt
+ - targyak
+    - dimat.txt
+    - szamrend.txt
+
+
+find -name dimat.txt
+./targyak/dimat.txt
