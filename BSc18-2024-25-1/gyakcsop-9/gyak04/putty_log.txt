@@ -1,0 +1,427 @@
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          impro/            szamalap/         tmp/
+cpp/              java/             Szamrend-24-25-1/
+enc/              symbolic/         temp/
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          impro/            szamalap/         tmp/
+cpp/              java/             Szamrend-24-25-1/
+enc/              symbolic/         temp/
+kgomoririchard@szamrend:~$ cd Dokumentumok/
+compalg/          impro/            szamalap/         tmp/
+cpp/              java/             Szamrend-24-25-1/
+enc/              symbolic/         temp/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0
+gyak01/ gyak02/ gyak03/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0
+gyak01/ gyak02/ gyak03/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0
+gyak01/ gyak02/ gyak03/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ ls -l
+összesen 6892
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 12 09:31 gyak01
+drwxr-xr-x 6 kgomoririchard inf2016    2048 okt    3 08:51 gyak02
+-rw-r--r-- 1 kgomoririchard inf2016 3525029 szept 26 09:41 gyak02_archive2.zip
+-rw-r--r-- 1 kgomoririchard inf2016 3525171 szept 26 09:38 gyak02_archive.zip
+drwxr-xr-x 6 kgomoririchard inf2016    2048 okt    3 09:22 gyak03
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ find gyak0
+gyak01/ gyak02/ gyak03/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ find gyak0^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak03
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find targyak/ -name *.txt
+targyak/dimat.txt
+targyak/szamrend.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find munka/ -name *.txt
+munka/szamok.txt
+munka/programminglang.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ ls -l
+összesen 1188
+drwxr-xr-x 2 kgomoririchard inf2016    2048 szept 26 09:09 filmek
+-rw-r--r-- 1 kgomoririchard inf2016 1208320 okt    3 08:58 filmek.tar
+drwxr-xr-x 4 kgomoririchard inf2016    2048 okt    3 08:31 foci
+drwxr-xr-x 2 kgomoririchard inf2016    2048 okt    3 09:33 munka
+drwxr-xr-x 2 kgomoririchard inf2016    2048 okt    3 09:23 targyak
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name *.txt
+./foci/nb1/hajra_fradi.txt
+./foci/nb2/hajra_kispest.txt
+./filmek/Shrek2.txt
+./filmek/Read_player_one.txt
+./filmek/Oppenheimer.txt
+./targyak/dimat.txt
+./targyak/szamrend.txt
+./munka/szamok.txt
+./munka/programminglang.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Logika
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rw targyak/ -e Logika
+targyak/dimat.txt:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Logika
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rn targyak/ -e logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rn targyak/ -e Logika
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rn targyak/ -e Logik
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Logik
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ man grep
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Logika
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnwi targyak/ -e Logika
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnwi targyak/ -e logika
+targyak/dimat.txt:2:Logika
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ man find
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name dimat.txt
+./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name dimat.txt
+./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name Dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name dimat.txt
+./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -name Dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ find . -iname Dimat.txt
+./targyak/dimat.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ echo  $RESULT
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ RESULT=12
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ echo $RESULT
+12
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ RESULT=23
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ echo $RESULT
+23
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ echo the value of result var: $RESULT
+the value of result var: 23
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ echo 'the value of result var: $RESULT'
+the value of result var: $RESULT
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ echo "the value of result var: $RESULT"
+the value of result var: 23
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Relaciok
+targyak/tmp.txt:3:Relaciok
+targyak/dimat.txt:4:Relaciok
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Relaciok$RESULT
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e Relaciok$RESULT
+targyak/tmp.txt:3:Relaciok23
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e 'Relaciok$RESULT'
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e 'Relaciok$RESULT'
+targyak/tmp.txt:4:Relaciok$RESULT
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e "Relaciok$RESULT"
+targyak/tmp.txt:3:Relaciok23
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ RESULT=24
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ grep -rnw targyak/ -e "Relaciok$RESULT"
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ mkdir gyak04
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ ls
+gyak01  gyak02_archive2.zip  gyak03
+gyak02  gyak02_archive.zip   gyak04
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak04
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ touch hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls
+hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cat hello.sh
+hello world
+
+
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cat hello.sh
+hello world
+
+
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cat hello.sh
+#!/bin/sh
+
+
+
+
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./hello.sh
+-bash: ./hello.sh: Engedély megtagadva
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls -l
+összesen 1
+-rw-r--r-- 1 kgomoririchard inf2016 82 okt   10 09:06 hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ chmod +x hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls -l
+összesen 1
+-rwxr-xr-x 1 kgomoririchard inf2016 82 okt   10 09:06 hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./hello.sh
+-bash: ./hello.sh: /bin/sh^M: rossz parancsértelmező: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cat hello.sh
+#!/bin/sh
+
+echo "hello world"
+echo "sullyed a harossz"
+echo "szamrend"
+
+
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./hello.sh
+hello world
+sullyed a harossz
+szamrend
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ nano hello2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ chmod +x hello2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./hello2
+-bash: ./hello2: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./hello2.sh
+hello2 script
+szamrend
+impro
+the value of result var: sullyed a harossz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls
+hello2.sh  hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ touch greet.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ nano greet.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ chmod +x greet.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet.sh
+Enter a username:
+Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet.sh
+Enter a username:
+Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ man read
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ man 7 read
+No manual entry for read in section 7
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ man 5 read
+No manual entry for read in section 5
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ nano greet.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet.sh
+-e Enter a username: ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ nano greet.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet.sh
+Enter a username: Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ touch greet2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet2.sh ^Cchard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet.sh
+Enter a username: ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ nano greet2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ chmod +x greet2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet2.sh
+number of params: 0
+first
+second
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ chmod +x greet2.sh elso masodik
+chmod: 'elso' nem érhető el: Nincs ilyen fájl vagy könyvtár
+chmod: 'masodik' nem érhető el: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ chmod +x greet2.sh el^C masodik
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet2.sh
+number of params: 0
+first
+second
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet2.sh elso masodik
+number of params: 2
+first elso
+second masodik
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet2.sh süllyed a harossz
+number of params: 3
+first süllyed
+second a
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ nano greet2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ./greet2.sh Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ pwd
+/afs/inf.elte.hu/user/k/kg/kgomoririchard/Dokumentumok/Szamrend-24-25-1/gyak04
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ /afs/inf.elte.hu/user/k/kg/kgomoririchard/Dokumentumok/Szamrend-24-25-1/gyak04/
+greet2.sh  greet.sh   hello2.sh  hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ /afs/inf.elte.hu/user/k/kg/kgomoririchard/Dokumentumok/Szamrend-24-25-1/gyak04/greet2.sh Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ mkdir ~/scripts
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cp greet2.sh ~/scripts/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok$ ../scripts/greet2.sh Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok$ greet2.sh
+-bash: greet2.sh: parancs nem található
+kgomoririchard@szamrend:~/Dokumentumok$ ./greet2.sh
+-bash: ./greet2.sh: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+kgomoririchard@szamrend:~/Dokumentumok$ ls -l /bin
+összesen 8312
+-rwxr-xr-x 1 root root 1099016 máj   15  2017 bash
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bunzip2
+-rwxr-xr-x 1 root root  673256 ápr    1  2021 busybox
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzcat
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 jan   29  2017 bzdiff
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 jan   29  2017 bzexe
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 jan   29  2017 bzgrep
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzip2
+-rwxr-xr-x 1 root root   14664 jan   29  2017 bzip2recover
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 jan   29  2017 bzmore
+-rwxr-xr-x 1 root root   35688 febr  22  2017 cat
+-rwxr-xr-x 1 root root   14744 febr   6  2016 chacl
+-rwxr-xr-x 1 root root   64424 febr  22  2017 chgrp
+-rwxr-xr-x 1 root root   60296 febr  22  2017 chmod
+-rwxr-xr-x 1 root root   64456 febr  22  2017 chown
+-rwxr-xr-x 1 root root   10616 jan    5  2016 chvt
+-rwxr-xr-x 1 root root  130504 febr  22  2017 cp
+-rwxr-xr-x 1 root root  145864 nov   29  2016 cpio
+-rwxr-xr-x 1 root root  117208 jan   24  2017 dash
+-rwxr-xr-x 1 root root  105448 febr  22  2017 date
+-rwxr-xr-x 1 root root   76816 febr  22  2017 dd
+-rwxr-xr-x 1 root root   85688 febr  22  2017 df
+-rwxr-xr-x 1 root root  130736 febr  22  2017 dir
+-rwxr-xr-x 1 root root   73032 márc   7  2018 dmesg
+lrwxrwxrwx 1 root root       8 júl    3  2016 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 júl    3  2016 domainname -> hostname
+-rwxr-xr-x 1 root root  166888 jan    5  2016 dumpkeys
+-rwxr-xr-x 1 root root   31464 febr  22  2017 echo
+-rwxr-xr-x 1 root root      28 jan   23  2017 egrep
+-rwxr-xr-x 1 root root   31464 febr  22  2017 false
+-rwxr-xr-x 1 root root   10624 jan    5  2016 fgconsole
+-rwxr-xr-x 1 root root      28 jan   23  2017 fgrep
+-rwxr-xr-x 1 root root   62072 márc   7  2018 findmnt
+-rwxr-xr-x 1 root root   36616 aug   17  2015 fuser
+-rwxr-xr-x 1 root root   23752 febr   6  2016 getfacl
+-rwxr-xr-x 1 root root  215360 jan   23  2017 grep
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 gunzip
+-rwxr-xr-x 1 root root    5927 ápr   10  2022 gzexe
+-rwxr-xr-x 1 root root  102408 ápr   10  2022 gzip
+-rwxr-xr-x 1 root root   18992 júl    3  2016 hostname
+-rwxr-xr-x 1 root root  442472 nov   24  2017 ip
+-rwxr-xr-x 1 root root   10616 jan    5  2016 kbd_mode
+-rwxr-xr-x 1 root root   30792 máj    1  2016 keyctl
+-rwxr-xr-x 1 root root   26704 máj   17  2018 kill
+-rwxr-xr-x 1 root root  149688 dec   26  2016 kmod
+-rwxr-xr-x 1 root root  165704 febr  28  2016 less
+-rwxr-xr-x 1 root root   10256 febr  28  2016 lessecho
+lrwxrwxrwx 1 root root       8 febr  28  2016 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19824 febr  28  2016 lesskey
+-rwxr-xr-x 1 root root    7765 febr  28  2016 lesspipe
+-rwxr-xr-x 1 root root   56240 febr  22  2017 ln
+-rwxr-xr-x 1 root root  204248 jan    5  2016 loadkeys
+-rwxr-xr-x 1 root root   52632 márc  17  2021 login
+-rwxr-xr-x 1 root root  130736 febr  22  2017 ls
+-rwxr-xr-x 1 root root   81376 márc   7  2018 lsblk
+lrwxrwxrwx 1 root root       4 dec   26  2016 lsmod -> kmod
+-rwxr-xr-x 1 root root   81032 febr  22  2017 mkdir
+-rwxr-xr-x 1 root root   68648 febr  22  2017 mknod
+-rwxr-xr-x 1 root root   43912 febr  22  2017 mktemp
+-rwxr-xr-x 1 root root   39752 márc   7  2018 more
+-rwsr-xr-x 1 root root   44304 márc   7  2018 mount
+-rwxr-xr-x 1 root root   14840 márc   7  2018 mountpoint
+lrwxrwxrwx 1 root root      20 febr  11  2019 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   72976 nov   29  2016 mt-gnu
+-rwxr-xr-x 1 root root  126416 febr  22  2017 mv
+-rwxr-xr-x 1 root root  225320 jan   11  2017 nano
+lrwxrwxrwx 1 root root      20 febr  11  2019 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   27264 szept 11  2014 nc.traditional
+lrwxrwxrwx 1 root root      24 febr  11  2019 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  151104 dec   26  2016 netstat
+lrwxrwxrwx 1 root root       8 júl    3  2016 nisdomainname -> hostname
+lrwxrwxrwx 1 root root       6 jan    5  2016 open -> openvt
+-rwxr-xr-x 1 root root   19400 jan    5  2016 openvt
+lrwxrwxrwx 1 root root      14 febr  12  2017 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   61240 nov   10  2016 ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping4 -> ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping6 -> ping
+-rwxr-xr-x 1 root root  129336 máj   17  2018 ps
+-rwxr-xr-x 1 root root   35656 febr  22  2017 pwd
+lrwxrwxrwx 1 root root       4 máj   15  2017 rbash -> bash
+-rwxr-xr-x 1 root root   43816 febr  22  2017 readlink
+-rwxr-xr-x 1 root root   64424 febr  22  2017 rm
+-rwxr-xr-x 1 root root   43816 febr  22  2017 rmdir
+lrwxrwxrwx 1 root root       4 jan   11  2017 rnano -> nano
+-rwxr-xr-x 1 root root   19288 ápr    2  2017 run-parts
+-rwxr-xr-x 1 root root  105808 febr   4  2017 sed
+-rwxr-xr-x 1 root root   36264 febr   6  2016 setfacl
+-rwxr-xr-x 1 root root   43768 jan    5  2016 setfont
+-rwxr-xr-x 1 root root   38137 ápr    7  2017 setupcon
+lrwxrwxrwx 1 root root       4 jan   24  2017 sh -> dash
+lrwxrwxrwx 1 root root       4 febr  11  2019 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35592 febr  22  2017 sleep
+-rwxr-xr-x 1 root root  128176 nov   24  2017 ss
+-rwxr-xr-x 1 root root   76680 febr  22  2017 stty
+-rwsr-xr-x 1 root root   40536 márc  17  2021 su
+-rwxr-xr-x 1 root root   31496 febr  22  2017 sync
+-rwxr-xr-x 1 root root   76536 jún   29  2022 systemd-hwdb
+-rwxr-xr-x 1 root root   23232 márc   7  2018 tailf
+-rwxr-xr-x 1 root root  420992 nov   27  2021 tar
+-rwxr-xr-x 1 root root   10680 ápr    2  2017 tempfile
+-rwxr-xr-x 1 root root   93160 febr  22  2017 touch
+-rwxr-xr-x 1 root root   31464 febr  22  2017 true
+-rwxr-xr-x 1 root root  461560 jún   29  2022 udevadm
+-rwsr-xr-x 1 root root   31720 márc   7  2018 umount
+-rwxr-xr-x 1 root root   35592 febr  22  2017 uname
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 uncompress
+-rwxr-xr-x 1 root root    2762 jan    5  2016 unicode_start
+-rwxr-xr-x 1 root root  130736 febr  22  2017 vdir
+-rwxr-xr-x 1 root root   31464 márc   7  2018 wdctl
+-rwxr-xr-x 1 root root     946 ápr    2  2017 which
+lrwxrwxrwx 1 root root       8 júl    3  2016 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 ápr   10  2022 zcat
+-rwxr-xr-x 1 root root    1777 ápr   10  2022 zcmp
+-rwxr-xr-x 1 root root    5764 ápr   10  2022 zdiff
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zegrep
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zfgrep
+-rwxr-xr-x 1 root root    2131 ápr   10  2022 zforce
+-rwxr-xr-x 1 root root    5929 ápr   10  2022 zgrep
+-rwxr-xr-x 1 root root    2037 ápr   10  2022 zless
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+kgomoririchard@szamrend:~/Dokumentumok$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+kgomoririchard@szamrend:~/Dokumentumok$ PATH=$PATH:~/scripts
+kgomoririchard@szamrend:~/Dokumentumok$ echo $PATH
+/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/afs/inf.elte.hu/user/k/kg/kgomoririchard/scripts
+kgomoririchard@szamrend:~/Dokumentumok$ greet2.sh Richard
+Hello Richard
+kgomoririchard@szamrend:~/Dokumentumok$
