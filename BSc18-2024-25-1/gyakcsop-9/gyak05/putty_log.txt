@@ -1,0 +1,121 @@
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0
+gyak01/ gyak02/ gyak03/ gyak04/ gyak05/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0
+gyak01/ gyak02/ gyak03/ gyak04/ gyak05/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak0
+gyak01/ gyak02/ gyak03/ gyak04/ gyak05/
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/gyak05/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./hf.sh alma
+Enter a text: korte
+The result: almakorte
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./hf.sh alma
+Enter a text: korte
+The result: almakorte
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ touch 1.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ chmod +x a
+chmod: 'a' nem érhető el: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ chmod +x 1.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh
+-bash: ./1.sh: /bin/bash^M: rossz parancsértelmező: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh
+number of args: 0
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte citrom
+number of args: 3
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte citrom
+number of args: 3
+Usage: 1.sh [first] [second]
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+not greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+not greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+not greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+not greater than 20
+not greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+greater than 20
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+greater than 20
+./1.sh: sor: 27: feltételes kétoperandusú operátor szükséges
+./1.sh: sor: 27: „)” szükséges
+./1.sh: sor: 27: „)” szükséges
+./1.sh: sor: 27: szintaktikai hiba „%” közelében
+./1.sh: sor: 27: `if [[ (( $VARIABLE % 10 )) -eq 0 ]]; then'
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+greater than 20
+not divisible by 10
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+greater than 20
+divisible by 10
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((x=1, y=2))
+2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((x=1, y=2)); echo $x
+2
+1
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((x=1, y=2)); echo "x=$x, y=$y"
+2
+x=1, y=2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $x
+1
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((x=1, y=2, z=x+y)); echo "x=$x, y=$y, z=$z"
+3
+x=1, y=2, z=3
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((x=1, y=2, z=x/y)); echo "x=$x, y=$y, z=$z"
+0
+x=1, y=2, z=0
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((x=6, y=2, z=x/y)); echo "x=$x, y=$y, z=$z"
+3
+x=6, y=2, z=3
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ number=1
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $((++number))
+2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ echo $number
+2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ ./1.sh alma korte
+number of args: 2
+greater than 20
+greater than 20
+divisible by 10
+1
+2
+3
+4
+5
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ touch 2.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ tuch 3.sh
+-bash: tuch: parancs nem található
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ touch 3.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$ touch 4.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak05$   
