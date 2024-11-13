@@ -1,0 +1,51 @@
+
+Szia Richard
+kgomoririchard@szamrend:~$ echo $PATH
+/afs/inf.elte.hu/user/k/kg/kgomoririchard/scripts:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+kgomoririchard@szamrend:~$ greet2.sh Ri
+Hello Ri
+kgomoririchard@szamrend:~$ echo $PS1
+${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+kgomoririchard@szamrend:~$ PS1="\033[01;32m\]\u@\h\[\033[01;34m\]\w\$ \[\033[00m\]"
+kgomoririchard@szamrend~$ ls -l
+összesen 26
+drwxr-xr-x  2 kgomoririchard inf2016 2048 jún    4  2018 Asztal
+drwxr-xr-x 13 kgomoririchard inf2016 2048 nov    5 22:22 Dokumentumok
+drwxr-xr-x  2 kgomoririchard inf2016 2048 nov   22  2019 Képek
+drwxr-xr-x  5 kgomoririchard inf2016 2048 dec   12  2023 Letöltések
+-rw-r--r--  1 kgomoririchard inf2016  159 márc   3  2020 névtelen
+-rw-------  1 kgomoririchard inf2016    0 okt    9  2023 nohup.out
+drwxr-xr-x  2 kgomoririchard inf2016 2048 dec    1  2016 Nyilvános
+lrwxr-xr-x  1 daemon         inf2016   29 okt   14  2019 public -> /h/public/k/kg/kgomoririchard
+drwxr-xr-x  2 kgomoririchard inf2016 2048 dec    1  2016 Sablonok
+drwxr-xr-x  2 kgomoririchard inf2016 2048 okt   10 09:38 scripts
+drwxr-xr-x  2 kgomoririchard inf2016 2048 máj    7  2018 untitled
+drwxr-xr-x  2 kgomoririchard inf2016 2048 máj    7  2018 untitled1
+drwxr-xr-x  2 kgomoririchard inf2016 2048 dec    1  2016 Videók
+drwx------  3 kgomoririchard inf2016 2048 márc  13  2023 VirtualBox VMs
+drwxr-xr-x  2 kgomoririchard inf2016 2048 dec    1  2016 Zenék
+kgomoririchard@szamrend~$ sleep 10
+kgomoririchard@szamrend~$ sleep 10
+kgomoririchard@szamrend~$ sleep 10
+kgomoririchard@szamrend~$ sleep 10
+kgomoririchard@szamrend~$ sleep 10
+kgomoririchard@szamrend~$ sleep 20&
+[1] 14188
+kgomoririchard@szamrend~$
+kgomoririchard@szamrend~$
+kgomoririchard@szamrend~$
+kgomoririchard@szamrend~$
+kgomoririchard@szamrend~$
+[1]+  Kész                   sleep 20
+kgomoririchard@szamrend~$ sleep 20
+^C
+kgomoririchard@szamrend~$ sleep 40
+Befejeződött
+kgomoririchard@szamrend~$ date
+2024. nov.  7., csütörtök, 09:35:35 CET
+kgomoririchard@szamrend~$ date %H
+date: érvénytelen dátum: ”%H”
+kgomoririchard@szamrend~$ date +%H
+09
+kgomoririchard@szamrend~$
+

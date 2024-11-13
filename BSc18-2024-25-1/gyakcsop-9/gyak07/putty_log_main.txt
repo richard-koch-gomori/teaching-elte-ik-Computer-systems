@@ -1,0 +1,1951 @@
+
+
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$ greet2.sh
+Hello
+kgomoririchard@szamrend:~$ cd scripts/
+kgomoririchard@szamrend:~/scripts$ pwd
+/afs/inf.elte.hu/user/k/kg/kgomoririchard/scripts
+kgomoririchard@szamrend:~/scripts$ cd ..
+kgomoririchard@szamrend:~$ PATH=/afs/inf.elte.hu/user/k/kg/kgomoririchard/scripts:$PAT^C
+kgomoririchard@szamrend:~$ nano .bash_profile
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$
+kgomoririchard@szamrend:~$ cd public
+kgomoririchard@szamrend:~/public$ cd public_html/
+kgomoririchard@szamrend:~/public/public_html$ touch hello.txt
+kgomoririchard@szamrend:~/public/public_html$ nano hello.txt
+kgomoririchard@szamrend:~/public/public_html$
+kgomoririchard@szamrend:~/public/public_html$ ls -l
+összesen 72
+-rw-r--r-- 1 kgomoririchard inf2016 50773 szept 11 17:53 desc.pdf
+-rw-r--r-- 1 kgomoririchard inf2016    27 okt    2  2023 gyak04.txt
+-rw-r--r-- 1 kgomoririchard inf2016    13 nov    7  2024 hello.txt
+drwxr-xr-x 2 kgomoririchard inf2016  4096 okt    7  2018 ipgyak5
+drwxr-xr-x 2 kgomoririchard inf2016  4096 nov   14  2021 java
+-rw-r--r-- 1 kgomoririchard inf2016    57 okt   16  2023 PS.txt
+kgomoririchard@szamrend:~/public/public_html$ chmod -r hello.txt
+kgomoririchard@szamrend:~/public/public_html$ ls -l
+összesen 72
+-rw-r--r-- 1 kgomoririchard inf2016 50773 szept 11 17:53 desc.pdf
+-rw-r--r-- 1 kgomoririchard inf2016    27 okt    2  2023 gyak04.txt
+--w------- 1 kgomoririchard inf2016    13 nov    7  2024 hello.txt
+drwxr-xr-x 2 kgomoririchard inf2016  4096 okt    7  2018 ipgyak5
+drwxr-xr-x 2 kgomoririchard inf2016  4096 nov   14  2021 java
+-rw-r--r-- 1 kgomoririchard inf2016    57 okt   16  2023 PS.txt
+kgomoririchard@szamrend:~/public/public_html$ chmod +r hello.txt
+kgomoririchard@szamrend:~/public/public_html$ cd ..
+kgomoririchard@szamrend:~/public$ cd ..
+kgomoririchard@szamrend:~$ cd Dokumentumok/Szamrend-24-25-1/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ ls
+gyak01  gyak02_archive2.zip  gyak03  gyak05  TODO
+gyak02  gyak02_archive.zip   gyak04  gyak06
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ mkdir gyak07
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak07
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd
+gyak01/ gyak02/ gyak03/ gyak04/ gyak05/ gyak06/ gyak07/ TODO/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak04
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls -lé
+ls: érvénytelen kapcsoló -- "▒"
+További információkért adja ki a(z) „ls --help” parancsot.
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ ls -l
+összesen 4
+-rwxr-xr-x 1 kgomoririchard inf2016  95 okt   10 09:35 greet2.sh
+-rwxr-xr-x 1 kgomoririchard inf2016  79 okt   10 09:28 greet.sh
+-rwxr-xr-x 1 kgomoririchard inf2016 132 okt   10 09:19 hello2.sh
+-rwxr-xr-x 1 kgomoririchard inf2016  74 okt   10 09:14 hello.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak04$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak03
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ ls
+filmek  filmek.tar  foci  munka  targyak
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak03$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cp -r gyak03/* gyak07/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1$ cd gyak07
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ ls
+filmek  filmek.tar  foci  munka  targyak
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ cd filmek/
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ls
+deadpoolandwolverine.jpg  Read_player_one.txt  Shrek2.txt
+Oppenheimer.txt           scrary_movie.jpg
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps
+  PID TTY          TIME CMD
+ 9134 pts/19   00:00:00 ps
+21524 pts/19   00:00:00 bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps
+  PID TTY          TIME CMD
+ 9341 pts/19   00:00:00 ps
+21524 pts/19   00:00:00 bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9329  0.0  0.0  10460   676 pts/3    S+   08:59   0:00 sleep 10
+kgomori+  9355  0.0  0.0  45036  3208 pts/19   R+   08:59   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9517  0.0  0.0  34468  1624 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9534  0.0  0.0  10460   676 pts/3    S+   09:00   0:00 sleep 10
+kgomori+  9543  0.0  0.0  45036  3176 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9534  0.0  0.0  10460   676 pts/3    S+   09:00   0:00 sleep 10
+kgomori+  9547  0.0  0.0  45036  3280 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9534  0.0  0.0  10460   676 pts/3    S+   09:00   0:00 sleep 10
+kgomori+  9552  0.0  0.0  45036  3212 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9534  0.0  0.0  10460   676 pts/3    S+   09:00   0:00 sleep 10
+kgomori+  9564  0.0  0.0  45036  3208 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9578  0.0  0.0  34468  1560 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9589  0.0  0.0  10460   756 pts/3    S+   09:00   0:00 sleep 10
+kgomori+  9593  0.0  0.0  45036  3240 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9665  0.0  0.0  10460   652 pts/3    S+   09:00   0:00 sleep 10
+kgomori+  9697  0.0  0.0  45036  3316 pts/19   R+   09:00   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9775  0.0  0.0  34468  1536 pts/19   R+   09:01   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux > ps.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ls -l
+összesen 1168
+-rw-r--r-- 1 kgomoririchard inf2016   41795 nov    7 08:56 deadpoolandwolverine.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       0 nov    7 08:56 Oppenheimer.txt
+-rw-r--r-- 1 kgomoririchard inf2016     287 nov    7 09:01 ps.txt
+-rw-r--r-- 1 kgomoririchard inf2016       0 nov    7 08:56 Read_player_one.txt
+-rw-r--r-- 1 kgomoririchard inf2016 1151586 nov    7 08:56 scrary_movie.jpg
+-rw-r--r-- 1 kgomoririchard inf2016       5 nov    7 08:56 Shrek2.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ nano ps.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ls -l /bin
+összesen 8312
+-rwxr-xr-x 1 root root 1099016 máj   15  2017 bash
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bunzip2
+-rwxr-xr-x 1 root root  673256 ápr    1  2021 busybox
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzcat
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 jan   29  2017 bzdiff
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 jan   29  2017 bzexe
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 jan   29  2017 bzgrep
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzip2
+-rwxr-xr-x 1 root root   14664 jan   29  2017 bzip2recover
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 jan   29  2017 bzmore
+-rwxr-xr-x 1 root root   35688 febr  22  2017 cat
+-rwxr-xr-x 1 root root   14744 febr   6  2016 chacl
+-rwxr-xr-x 1 root root   64424 febr  22  2017 chgrp
+-rwxr-xr-x 1 root root   60296 febr  22  2017 chmod
+-rwxr-xr-x 1 root root   64456 febr  22  2017 chown
+-rwxr-xr-x 1 root root   10616 jan    5  2016 chvt
+-rwxr-xr-x 1 root root  130504 febr  22  2017 cp
+-rwxr-xr-x 1 root root  145864 nov   29  2016 cpio
+-rwxr-xr-x 1 root root  117208 jan   24  2017 dash
+-rwxr-xr-x 1 root root  105448 febr  22  2017 date
+-rwxr-xr-x 1 root root   76816 febr  22  2017 dd
+-rwxr-xr-x 1 root root   85688 febr  22  2017 df
+-rwxr-xr-x 1 root root  130736 febr  22  2017 dir
+-rwxr-xr-x 1 root root   73032 márc   7  2018 dmesg
+lrwxrwxrwx 1 root root       8 júl    3  2016 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 júl    3  2016 domainname -> hostname
+-rwxr-xr-x 1 root root  166888 jan    5  2016 dumpkeys
+-rwxr-xr-x 1 root root   31464 febr  22  2017 echo
+-rwxr-xr-x 1 root root      28 jan   23  2017 egrep
+-rwxr-xr-x 1 root root   31464 febr  22  2017 false
+-rwxr-xr-x 1 root root   10624 jan    5  2016 fgconsole
+-rwxr-xr-x 1 root root      28 jan   23  2017 fgrep
+-rwxr-xr-x 1 root root   62072 márc   7  2018 findmnt
+-rwxr-xr-x 1 root root   36616 aug   17  2015 fuser
+-rwxr-xr-x 1 root root   23752 febr   6  2016 getfacl
+-rwxr-xr-x 1 root root  215360 jan   23  2017 grep
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 gunzip
+-rwxr-xr-x 1 root root    5927 ápr   10  2022 gzexe
+-rwxr-xr-x 1 root root  102408 ápr   10  2022 gzip
+-rwxr-xr-x 1 root root   18992 júl    3  2016 hostname
+-rwxr-xr-x 1 root root  442472 nov   24  2017 ip
+-rwxr-xr-x 1 root root   10616 jan    5  2016 kbd_mode
+-rwxr-xr-x 1 root root   30792 máj    1  2016 keyctl
+-rwxr-xr-x 1 root root   26704 máj   17  2018 kill
+-rwxr-xr-x 1 root root  149688 dec   26  2016 kmod
+-rwxr-xr-x 1 root root  165704 febr  28  2016 less
+-rwxr-xr-x 1 root root   10256 febr  28  2016 lessecho
+lrwxrwxrwx 1 root root       8 febr  28  2016 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19824 febr  28  2016 lesskey
+-rwxr-xr-x 1 root root    7765 febr  28  2016 lesspipe
+-rwxr-xr-x 1 root root   56240 febr  22  2017 ln
+-rwxr-xr-x 1 root root  204248 jan    5  2016 loadkeys
+-rwxr-xr-x 1 root root   52632 márc  17  2021 login
+-rwxr-xr-x 1 root root  130736 febr  22  2017 ls
+-rwxr-xr-x 1 root root   81376 márc   7  2018 lsblk
+lrwxrwxrwx 1 root root       4 dec   26  2016 lsmod -> kmod
+-rwxr-xr-x 1 root root   81032 febr  22  2017 mkdir
+-rwxr-xr-x 1 root root   68648 febr  22  2017 mknod
+-rwxr-xr-x 1 root root   43912 febr  22  2017 mktemp
+-rwxr-xr-x 1 root root   39752 márc   7  2018 more
+-rwsr-xr-x 1 root root   44304 márc   7  2018 mount
+-rwxr-xr-x 1 root root   14840 márc   7  2018 mountpoint
+lrwxrwxrwx 1 root root      20 febr  11  2019 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   72976 nov   29  2016 mt-gnu
+-rwxr-xr-x 1 root root  126416 febr  22  2017 mv
+-rwxr-xr-x 1 root root  225320 jan   11  2017 nano
+lrwxrwxrwx 1 root root      20 febr  11  2019 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   27264 szept 11  2014 nc.traditional
+lrwxrwxrwx 1 root root      24 febr  11  2019 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  151104 dec   26  2016 netstat
+lrwxrwxrwx 1 root root       8 júl    3  2016 nisdomainname -> hostname
+lrwxrwxrwx 1 root root       6 jan    5  2016 open -> openvt
+-rwxr-xr-x 1 root root   19400 jan    5  2016 openvt
+lrwxrwxrwx 1 root root      14 febr  12  2017 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   61240 nov   10  2016 ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping4 -> ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping6 -> ping
+-rwxr-xr-x 1 root root  129336 máj   17  2018 ps
+-rwxr-xr-x 1 root root   35656 febr  22  2017 pwd
+lrwxrwxrwx 1 root root       4 máj   15  2017 rbash -> bash
+-rwxr-xr-x 1 root root   43816 febr  22  2017 readlink
+-rwxr-xr-x 1 root root   64424 febr  22  2017 rm
+-rwxr-xr-x 1 root root   43816 febr  22  2017 rmdir
+lrwxrwxrwx 1 root root       4 jan   11  2017 rnano -> nano
+-rwxr-xr-x 1 root root   19288 ápr    2  2017 run-parts
+-rwxr-xr-x 1 root root  105808 febr   4  2017 sed
+-rwxr-xr-x 1 root root   36264 febr   6  2016 setfacl
+-rwxr-xr-x 1 root root   43768 jan    5  2016 setfont
+-rwxr-xr-x 1 root root   38137 ápr    7  2017 setupcon
+lrwxrwxrwx 1 root root       4 jan   24  2017 sh -> dash
+lrwxrwxrwx 1 root root       4 febr  11  2019 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35592 febr  22  2017 sleep
+-rwxr-xr-x 1 root root  128176 nov   24  2017 ss
+-rwxr-xr-x 1 root root   76680 febr  22  2017 stty
+-rwsr-xr-x 1 root root   40536 márc  17  2021 su
+-rwxr-xr-x 1 root root   31496 febr  22  2017 sync
+-rwxr-xr-x 1 root root   76536 jún   29  2022 systemd-hwdb
+-rwxr-xr-x 1 root root   23232 márc   7  2018 tailf
+-rwxr-xr-x 1 root root  420992 nov   27  2021 tar
+-rwxr-xr-x 1 root root   10680 ápr    2  2017 tempfile
+-rwxr-xr-x 1 root root   93160 febr  22  2017 touch
+-rwxr-xr-x 1 root root   31464 febr  22  2017 true
+-rwxr-xr-x 1 root root  461560 jún   29  2022 udevadm
+-rwsr-xr-x 1 root root   31720 márc   7  2018 umount
+-rwxr-xr-x 1 root root   35592 febr  22  2017 uname
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 uncompress
+-rwxr-xr-x 1 root root    2762 jan    5  2016 unicode_start
+-rwxr-xr-x 1 root root  130736 febr  22  2017 vdir
+-rwxr-xr-x 1 root root   31464 márc   7  2018 wdctl
+-rwxr-xr-x 1 root root     946 ápr    2  2017 which
+lrwxrwxrwx 1 root root       8 júl    3  2016 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 ápr   10  2022 zcat
+-rwxr-xr-x 1 root root    1777 ápr   10  2022 zcmp
+-rwxr-xr-x 1 root root    5764 ápr   10  2022 zdiff
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zegrep
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zfgrep
+-rwxr-xr-x 1 root root    2131 ápr   10  2022 zforce
+-rwxr-xr-x 1 root root    5929 ápr   10  2022 zgrep
+-rwxr-xr-x 1 root root    2037 ápr   10  2022 zless
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ls -l /bin > ls.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ cat ls.txt
+összesen 8312
+-rwxr-xr-x 1 root root 1099016 máj   15  2017 bash
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bunzip2
+-rwxr-xr-x 1 root root  673256 ápr    1  2021 busybox
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzcat
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 jan   29  2017 bzdiff
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 jan   29  2017 bzexe
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 jan   29  2017 bzgrep
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzip2
+-rwxr-xr-x 1 root root   14664 jan   29  2017 bzip2recover
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 jan   29  2017 bzmore
+-rwxr-xr-x 1 root root   35688 febr  22  2017 cat
+-rwxr-xr-x 1 root root   14744 febr   6  2016 chacl
+-rwxr-xr-x 1 root root   64424 febr  22  2017 chgrp
+-rwxr-xr-x 1 root root   60296 febr  22  2017 chmod
+-rwxr-xr-x 1 root root   64456 febr  22  2017 chown
+-rwxr-xr-x 1 root root   10616 jan    5  2016 chvt
+-rwxr-xr-x 1 root root  130504 febr  22  2017 cp
+-rwxr-xr-x 1 root root  145864 nov   29  2016 cpio
+-rwxr-xr-x 1 root root  117208 jan   24  2017 dash
+-rwxr-xr-x 1 root root  105448 febr  22  2017 date
+-rwxr-xr-x 1 root root   76816 febr  22  2017 dd
+-rwxr-xr-x 1 root root   85688 febr  22  2017 df
+-rwxr-xr-x 1 root root  130736 febr  22  2017 dir
+-rwxr-xr-x 1 root root   73032 márc   7  2018 dmesg
+lrwxrwxrwx 1 root root       8 júl    3  2016 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 júl    3  2016 domainname -> hostname
+-rwxr-xr-x 1 root root  166888 jan    5  2016 dumpkeys
+-rwxr-xr-x 1 root root   31464 febr  22  2017 echo
+-rwxr-xr-x 1 root root      28 jan   23  2017 egrep
+-rwxr-xr-x 1 root root   31464 febr  22  2017 false
+-rwxr-xr-x 1 root root   10624 jan    5  2016 fgconsole
+-rwxr-xr-x 1 root root      28 jan   23  2017 fgrep
+-rwxr-xr-x 1 root root   62072 márc   7  2018 findmnt
+-rwxr-xr-x 1 root root   36616 aug   17  2015 fuser
+-rwxr-xr-x 1 root root   23752 febr   6  2016 getfacl
+-rwxr-xr-x 1 root root  215360 jan   23  2017 grep
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 gunzip
+-rwxr-xr-x 1 root root    5927 ápr   10  2022 gzexe
+-rwxr-xr-x 1 root root  102408 ápr   10  2022 gzip
+-rwxr-xr-x 1 root root   18992 júl    3  2016 hostname
+-rwxr-xr-x 1 root root  442472 nov   24  2017 ip
+-rwxr-xr-x 1 root root   10616 jan    5  2016 kbd_mode
+-rwxr-xr-x 1 root root   30792 máj    1  2016 keyctl
+-rwxr-xr-x 1 root root   26704 máj   17  2018 kill
+-rwxr-xr-x 1 root root  149688 dec   26  2016 kmod
+-rwxr-xr-x 1 root root  165704 febr  28  2016 less
+-rwxr-xr-x 1 root root   10256 febr  28  2016 lessecho
+lrwxrwxrwx 1 root root       8 febr  28  2016 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19824 febr  28  2016 lesskey
+-rwxr-xr-x 1 root root    7765 febr  28  2016 lesspipe
+-rwxr-xr-x 1 root root   56240 febr  22  2017 ln
+-rwxr-xr-x 1 root root  204248 jan    5  2016 loadkeys
+-rwxr-xr-x 1 root root   52632 márc  17  2021 login
+-rwxr-xr-x 1 root root  130736 febr  22  2017 ls
+-rwxr-xr-x 1 root root   81376 márc   7  2018 lsblk
+lrwxrwxrwx 1 root root       4 dec   26  2016 lsmod -> kmod
+-rwxr-xr-x 1 root root   81032 febr  22  2017 mkdir
+-rwxr-xr-x 1 root root   68648 febr  22  2017 mknod
+-rwxr-xr-x 1 root root   43912 febr  22  2017 mktemp
+-rwxr-xr-x 1 root root   39752 márc   7  2018 more
+-rwsr-xr-x 1 root root   44304 márc   7  2018 mount
+-rwxr-xr-x 1 root root   14840 márc   7  2018 mountpoint
+lrwxrwxrwx 1 root root      20 febr  11  2019 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   72976 nov   29  2016 mt-gnu
+-rwxr-xr-x 1 root root  126416 febr  22  2017 mv
+-rwxr-xr-x 1 root root  225320 jan   11  2017 nano
+lrwxrwxrwx 1 root root      20 febr  11  2019 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   27264 szept 11  2014 nc.traditional
+lrwxrwxrwx 1 root root      24 febr  11  2019 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  151104 dec   26  2016 netstat
+lrwxrwxrwx 1 root root       8 júl    3  2016 nisdomainname -> hostname
+lrwxrwxrwx 1 root root       6 jan    5  2016 open -> openvt
+-rwxr-xr-x 1 root root   19400 jan    5  2016 openvt
+lrwxrwxrwx 1 root root      14 febr  12  2017 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   61240 nov   10  2016 ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping4 -> ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping6 -> ping
+-rwxr-xr-x 1 root root  129336 máj   17  2018 ps
+-rwxr-xr-x 1 root root   35656 febr  22  2017 pwd
+lrwxrwxrwx 1 root root       4 máj   15  2017 rbash -> bash
+-rwxr-xr-x 1 root root   43816 febr  22  2017 readlink
+-rwxr-xr-x 1 root root   64424 febr  22  2017 rm
+-rwxr-xr-x 1 root root   43816 febr  22  2017 rmdir
+lrwxrwxrwx 1 root root       4 jan   11  2017 rnano -> nano
+-rwxr-xr-x 1 root root   19288 ápr    2  2017 run-parts
+-rwxr-xr-x 1 root root  105808 febr   4  2017 sed
+-rwxr-xr-x 1 root root   36264 febr   6  2016 setfacl
+-rwxr-xr-x 1 root root   43768 jan    5  2016 setfont
+-rwxr-xr-x 1 root root   38137 ápr    7  2017 setupcon
+lrwxrwxrwx 1 root root       4 jan   24  2017 sh -> dash
+lrwxrwxrwx 1 root root       4 febr  11  2019 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35592 febr  22  2017 sleep
+-rwxr-xr-x 1 root root  128176 nov   24  2017 ss
+-rwxr-xr-x 1 root root   76680 febr  22  2017 stty
+-rwsr-xr-x 1 root root   40536 márc  17  2021 su
+-rwxr-xr-x 1 root root   31496 febr  22  2017 sync
+-rwxr-xr-x 1 root root   76536 jún   29  2022 systemd-hwdb
+-rwxr-xr-x 1 root root   23232 márc   7  2018 tailf
+-rwxr-xr-x 1 root root  420992 nov   27  2021 tar
+-rwxr-xr-x 1 root root   10680 ápr    2  2017 tempfile
+-rwxr-xr-x 1 root root   93160 febr  22  2017 touch
+-rwxr-xr-x 1 root root   31464 febr  22  2017 true
+-rwxr-xr-x 1 root root  461560 jún   29  2022 udevadm
+-rwsr-xr-x 1 root root   31720 márc   7  2018 umount
+-rwxr-xr-x 1 root root   35592 febr  22  2017 uname
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 uncompress
+-rwxr-xr-x 1 root root    2762 jan    5  2016 unicode_start
+-rwxr-xr-x 1 root root  130736 febr  22  2017 vdir
+-rwxr-xr-x 1 root root   31464 márc   7  2018 wdctl
+-rwxr-xr-x 1 root root     946 ápr    2  2017 which
+lrwxrwxrwx 1 root root       8 júl    3  2016 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 ápr   10  2022 zcat
+-rwxr-xr-x 1 root root    1777 ápr   10  2022 zcmp
+-rwxr-xr-x 1 root root    5764 ápr   10  2022 zdiff
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zegrep
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zfgrep
+-rwxr-xr-x 1 root root    2131 ápr   10  2022 zforce
+-rwxr-xr-x 1 root root    5929 ápr   10  2022 zgrep
+-rwxr-xr-x 1 root root    2037 ápr   10  2022 zless
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ wc -l ps.txt
+4 ps.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ nano ps.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ wc -l ls.txt
+126 ls.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ wc -l *.txt
+ 126 ls.txt
+   0 Oppenheimer.txt
+   4 ps.txt
+   0 Read_player_one.txt
+   1 Shrek2.txt
+ 131 összesen
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt"
+./Shrek2.txt
+./Read_player_one.txt
+./Oppenheimer.txt
+./ps.txt
+./ls.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt" -exec cat {} \;
+vmi1
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9830  0.0  0.0  34468  1544 pts/19   R+   09:01   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+összesen 8312
+-rwxr-xr-x 1 root root 1099016 máj   15  2017 bash
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bunzip2
+-rwxr-xr-x 1 root root  673256 ápr    1  2021 busybox
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzcat
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 jan   29  2017 bzdiff
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 jan   29  2017 bzexe
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 jan   29  2017 bzgrep
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzip2
+-rwxr-xr-x 1 root root   14664 jan   29  2017 bzip2recover
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 jan   29  2017 bzmore
+-rwxr-xr-x 1 root root   35688 febr  22  2017 cat
+-rwxr-xr-x 1 root root   14744 febr   6  2016 chacl
+-rwxr-xr-x 1 root root   64424 febr  22  2017 chgrp
+-rwxr-xr-x 1 root root   60296 febr  22  2017 chmod
+-rwxr-xr-x 1 root root   64456 febr  22  2017 chown
+-rwxr-xr-x 1 root root   10616 jan    5  2016 chvt
+-rwxr-xr-x 1 root root  130504 febr  22  2017 cp
+-rwxr-xr-x 1 root root  145864 nov   29  2016 cpio
+-rwxr-xr-x 1 root root  117208 jan   24  2017 dash
+-rwxr-xr-x 1 root root  105448 febr  22  2017 date
+-rwxr-xr-x 1 root root   76816 febr  22  2017 dd
+-rwxr-xr-x 1 root root   85688 febr  22  2017 df
+-rwxr-xr-x 1 root root  130736 febr  22  2017 dir
+-rwxr-xr-x 1 root root   73032 márc   7  2018 dmesg
+lrwxrwxrwx 1 root root       8 júl    3  2016 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 júl    3  2016 domainname -> hostname
+-rwxr-xr-x 1 root root  166888 jan    5  2016 dumpkeys
+-rwxr-xr-x 1 root root   31464 febr  22  2017 echo
+-rwxr-xr-x 1 root root      28 jan   23  2017 egrep
+-rwxr-xr-x 1 root root   31464 febr  22  2017 false
+-rwxr-xr-x 1 root root   10624 jan    5  2016 fgconsole
+-rwxr-xr-x 1 root root      28 jan   23  2017 fgrep
+-rwxr-xr-x 1 root root   62072 márc   7  2018 findmnt
+-rwxr-xr-x 1 root root   36616 aug   17  2015 fuser
+-rwxr-xr-x 1 root root   23752 febr   6  2016 getfacl
+-rwxr-xr-x 1 root root  215360 jan   23  2017 grep
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 gunzip
+-rwxr-xr-x 1 root root    5927 ápr   10  2022 gzexe
+-rwxr-xr-x 1 root root  102408 ápr   10  2022 gzip
+-rwxr-xr-x 1 root root   18992 júl    3  2016 hostname
+-rwxr-xr-x 1 root root  442472 nov   24  2017 ip
+-rwxr-xr-x 1 root root   10616 jan    5  2016 kbd_mode
+-rwxr-xr-x 1 root root   30792 máj    1  2016 keyctl
+-rwxr-xr-x 1 root root   26704 máj   17  2018 kill
+-rwxr-xr-x 1 root root  149688 dec   26  2016 kmod
+-rwxr-xr-x 1 root root  165704 febr  28  2016 less
+-rwxr-xr-x 1 root root   10256 febr  28  2016 lessecho
+lrwxrwxrwx 1 root root       8 febr  28  2016 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19824 febr  28  2016 lesskey
+-rwxr-xr-x 1 root root    7765 febr  28  2016 lesspipe
+-rwxr-xr-x 1 root root   56240 febr  22  2017 ln
+-rwxr-xr-x 1 root root  204248 jan    5  2016 loadkeys
+-rwxr-xr-x 1 root root   52632 márc  17  2021 login
+-rwxr-xr-x 1 root root  130736 febr  22  2017 ls
+-rwxr-xr-x 1 root root   81376 márc   7  2018 lsblk
+lrwxrwxrwx 1 root root       4 dec   26  2016 lsmod -> kmod
+-rwxr-xr-x 1 root root   81032 febr  22  2017 mkdir
+-rwxr-xr-x 1 root root   68648 febr  22  2017 mknod
+-rwxr-xr-x 1 root root   43912 febr  22  2017 mktemp
+-rwxr-xr-x 1 root root   39752 márc   7  2018 more
+-rwsr-xr-x 1 root root   44304 márc   7  2018 mount
+-rwxr-xr-x 1 root root   14840 márc   7  2018 mountpoint
+lrwxrwxrwx 1 root root      20 febr  11  2019 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   72976 nov   29  2016 mt-gnu
+-rwxr-xr-x 1 root root  126416 febr  22  2017 mv
+-rwxr-xr-x 1 root root  225320 jan   11  2017 nano
+lrwxrwxrwx 1 root root      20 febr  11  2019 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   27264 szept 11  2014 nc.traditional
+lrwxrwxrwx 1 root root      24 febr  11  2019 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  151104 dec   26  2016 netstat
+lrwxrwxrwx 1 root root       8 júl    3  2016 nisdomainname -> hostname
+lrwxrwxrwx 1 root root       6 jan    5  2016 open -> openvt
+-rwxr-xr-x 1 root root   19400 jan    5  2016 openvt
+lrwxrwxrwx 1 root root      14 febr  12  2017 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   61240 nov   10  2016 ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping4 -> ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping6 -> ping
+-rwxr-xr-x 1 root root  129336 máj   17  2018 ps
+-rwxr-xr-x 1 root root   35656 febr  22  2017 pwd
+lrwxrwxrwx 1 root root       4 máj   15  2017 rbash -> bash
+-rwxr-xr-x 1 root root   43816 febr  22  2017 readlink
+-rwxr-xr-x 1 root root   64424 febr  22  2017 rm
+-rwxr-xr-x 1 root root   43816 febr  22  2017 rmdir
+lrwxrwxrwx 1 root root       4 jan   11  2017 rnano -> nano
+-rwxr-xr-x 1 root root   19288 ápr    2  2017 run-parts
+-rwxr-xr-x 1 root root  105808 febr   4  2017 sed
+-rwxr-xr-x 1 root root   36264 febr   6  2016 setfacl
+-rwxr-xr-x 1 root root   43768 jan    5  2016 setfont
+-rwxr-xr-x 1 root root   38137 ápr    7  2017 setupcon
+lrwxrwxrwx 1 root root       4 jan   24  2017 sh -> dash
+lrwxrwxrwx 1 root root       4 febr  11  2019 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35592 febr  22  2017 sleep
+-rwxr-xr-x 1 root root  128176 nov   24  2017 ss
+-rwxr-xr-x 1 root root   76680 febr  22  2017 stty
+-rwsr-xr-x 1 root root   40536 márc  17  2021 su
+-rwxr-xr-x 1 root root   31496 febr  22  2017 sync
+-rwxr-xr-x 1 root root   76536 jún   29  2022 systemd-hwdb
+-rwxr-xr-x 1 root root   23232 márc   7  2018 tailf
+-rwxr-xr-x 1 root root  420992 nov   27  2021 tar
+-rwxr-xr-x 1 root root   10680 ápr    2  2017 tempfile
+-rwxr-xr-x 1 root root   93160 febr  22  2017 touch
+-rwxr-xr-x 1 root root   31464 febr  22  2017 true
+-rwxr-xr-x 1 root root  461560 jún   29  2022 udevadm
+-rwsr-xr-x 1 root root   31720 márc   7  2018 umount
+-rwxr-xr-x 1 root root   35592 febr  22  2017 uname
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 uncompress
+-rwxr-xr-x 1 root root    2762 jan    5  2016 unicode_start
+-rwxr-xr-x 1 root root  130736 febr  22  2017 vdir
+-rwxr-xr-x 1 root root   31464 márc   7  2018 wdctl
+-rwxr-xr-x 1 root root     946 ápr    2  2017 which
+lrwxrwxrwx 1 root root       8 júl    3  2016 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 ápr   10  2022 zcat
+-rwxr-xr-x 1 root root    1777 ápr   10  2022 zcmp
+-rwxr-xr-x 1 root root    5764 ápr   10  2022 zdiff
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zegrep
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zfgrep
+-rwxr-xr-x 1 root root    2131 ápr   10  2022 zforce
+-rwxr-xr-x 1 root root    5929 ápr   10  2022 zgrep
+-rwxr-xr-x 1 root root    2037 ápr   10  2022 zless
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt" -exec cat {} \; | wc -l
+131
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt"
+./Shrek2.txt
+./Read_player_one.txt
+./Oppenheimer.txt
+./ps.txt
+./ls.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt" -exec cat {} \;
+vmi1
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+  9830  0.0  0.0  34468  1544 pts/19   R+   09:01   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+összesen 8312
+-rwxr-xr-x 1 root root 1099016 máj   15  2017 bash
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bunzip2
+-rwxr-xr-x 1 root root  673256 ápr    1  2021 busybox
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzcat
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 jan   29  2017 bzdiff
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 jan   29  2017 bzexe
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 jan   29  2017 bzgrep
+-rwxr-xr-x 3 root root   35448 jan   29  2017 bzip2
+-rwxr-xr-x 1 root root   14664 jan   29  2017 bzip2recover
+lrwxrwxrwx 1 root root       6 jan   29  2017 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 jan   29  2017 bzmore
+-rwxr-xr-x 1 root root   35688 febr  22  2017 cat
+-rwxr-xr-x 1 root root   14744 febr   6  2016 chacl
+-rwxr-xr-x 1 root root   64424 febr  22  2017 chgrp
+-rwxr-xr-x 1 root root   60296 febr  22  2017 chmod
+-rwxr-xr-x 1 root root   64456 febr  22  2017 chown
+-rwxr-xr-x 1 root root   10616 jan    5  2016 chvt
+-rwxr-xr-x 1 root root  130504 febr  22  2017 cp
+-rwxr-xr-x 1 root root  145864 nov   29  2016 cpio
+-rwxr-xr-x 1 root root  117208 jan   24  2017 dash
+-rwxr-xr-x 1 root root  105448 febr  22  2017 date
+-rwxr-xr-x 1 root root   76816 febr  22  2017 dd
+-rwxr-xr-x 1 root root   85688 febr  22  2017 df
+-rwxr-xr-x 1 root root  130736 febr  22  2017 dir
+-rwxr-xr-x 1 root root   73032 márc   7  2018 dmesg
+lrwxrwxrwx 1 root root       8 júl    3  2016 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 júl    3  2016 domainname -> hostname
+-rwxr-xr-x 1 root root  166888 jan    5  2016 dumpkeys
+-rwxr-xr-x 1 root root   31464 febr  22  2017 echo
+-rwxr-xr-x 1 root root      28 jan   23  2017 egrep
+-rwxr-xr-x 1 root root   31464 febr  22  2017 false
+-rwxr-xr-x 1 root root   10624 jan    5  2016 fgconsole
+-rwxr-xr-x 1 root root      28 jan   23  2017 fgrep
+-rwxr-xr-x 1 root root   62072 márc   7  2018 findmnt
+-rwxr-xr-x 1 root root   36616 aug   17  2015 fuser
+-rwxr-xr-x 1 root root   23752 febr   6  2016 getfacl
+-rwxr-xr-x 1 root root  215360 jan   23  2017 grep
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 gunzip
+-rwxr-xr-x 1 root root    5927 ápr   10  2022 gzexe
+-rwxr-xr-x 1 root root  102408 ápr   10  2022 gzip
+-rwxr-xr-x 1 root root   18992 júl    3  2016 hostname
+-rwxr-xr-x 1 root root  442472 nov   24  2017 ip
+-rwxr-xr-x 1 root root   10616 jan    5  2016 kbd_mode
+-rwxr-xr-x 1 root root   30792 máj    1  2016 keyctl
+-rwxr-xr-x 1 root root   26704 máj   17  2018 kill
+-rwxr-xr-x 1 root root  149688 dec   26  2016 kmod
+-rwxr-xr-x 1 root root  165704 febr  28  2016 less
+-rwxr-xr-x 1 root root   10256 febr  28  2016 lessecho
+lrwxrwxrwx 1 root root       8 febr  28  2016 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19824 febr  28  2016 lesskey
+-rwxr-xr-x 1 root root    7765 febr  28  2016 lesspipe
+-rwxr-xr-x 1 root root   56240 febr  22  2017 ln
+-rwxr-xr-x 1 root root  204248 jan    5  2016 loadkeys
+-rwxr-xr-x 1 root root   52632 márc  17  2021 login
+-rwxr-xr-x 1 root root  130736 febr  22  2017 ls
+-rwxr-xr-x 1 root root   81376 márc   7  2018 lsblk
+lrwxrwxrwx 1 root root       4 dec   26  2016 lsmod -> kmod
+-rwxr-xr-x 1 root root   81032 febr  22  2017 mkdir
+-rwxr-xr-x 1 root root   68648 febr  22  2017 mknod
+-rwxr-xr-x 1 root root   43912 febr  22  2017 mktemp
+-rwxr-xr-x 1 root root   39752 márc   7  2018 more
+-rwsr-xr-x 1 root root   44304 márc   7  2018 mount
+-rwxr-xr-x 1 root root   14840 márc   7  2018 mountpoint
+lrwxrwxrwx 1 root root      20 febr  11  2019 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   72976 nov   29  2016 mt-gnu
+-rwxr-xr-x 1 root root  126416 febr  22  2017 mv
+-rwxr-xr-x 1 root root  225320 jan   11  2017 nano
+lrwxrwxrwx 1 root root      20 febr  11  2019 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   27264 szept 11  2014 nc.traditional
+lrwxrwxrwx 1 root root      24 febr  11  2019 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root  151104 dec   26  2016 netstat
+lrwxrwxrwx 1 root root       8 júl    3  2016 nisdomainname -> hostname
+lrwxrwxrwx 1 root root       6 jan    5  2016 open -> openvt
+-rwxr-xr-x 1 root root   19400 jan    5  2016 openvt
+lrwxrwxrwx 1 root root      14 febr  12  2017 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   61240 nov   10  2016 ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping4 -> ping
+lrwxrwxrwx 1 root root       4 nov   10  2016 ping6 -> ping
+-rwxr-xr-x 1 root root  129336 máj   17  2018 ps
+-rwxr-xr-x 1 root root   35656 febr  22  2017 pwd
+lrwxrwxrwx 1 root root       4 máj   15  2017 rbash -> bash
+-rwxr-xr-x 1 root root   43816 febr  22  2017 readlink
+-rwxr-xr-x 1 root root   64424 febr  22  2017 rm
+-rwxr-xr-x 1 root root   43816 febr  22  2017 rmdir
+lrwxrwxrwx 1 root root       4 jan   11  2017 rnano -> nano
+-rwxr-xr-x 1 root root   19288 ápr    2  2017 run-parts
+-rwxr-xr-x 1 root root  105808 febr   4  2017 sed
+-rwxr-xr-x 1 root root   36264 febr   6  2016 setfacl
+-rwxr-xr-x 1 root root   43768 jan    5  2016 setfont
+-rwxr-xr-x 1 root root   38137 ápr    7  2017 setupcon
+lrwxrwxrwx 1 root root       4 jan   24  2017 sh -> dash
+lrwxrwxrwx 1 root root       4 febr  11  2019 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35592 febr  22  2017 sleep
+-rwxr-xr-x 1 root root  128176 nov   24  2017 ss
+-rwxr-xr-x 1 root root   76680 febr  22  2017 stty
+-rwsr-xr-x 1 root root   40536 márc  17  2021 su
+-rwxr-xr-x 1 root root   31496 febr  22  2017 sync
+-rwxr-xr-x 1 root root   76536 jún   29  2022 systemd-hwdb
+-rwxr-xr-x 1 root root   23232 márc   7  2018 tailf
+-rwxr-xr-x 1 root root  420992 nov   27  2021 tar
+-rwxr-xr-x 1 root root   10680 ápr    2  2017 tempfile
+-rwxr-xr-x 1 root root   93160 febr  22  2017 touch
+-rwxr-xr-x 1 root root   31464 febr  22  2017 true
+-rwxr-xr-x 1 root root  461560 jún   29  2022 udevadm
+-rwsr-xr-x 1 root root   31720 márc   7  2018 umount
+-rwxr-xr-x 1 root root   35592 febr  22  2017 uname
+-rwxr-xr-x 2 root root    2301 ápr   10  2022 uncompress
+-rwxr-xr-x 1 root root    2762 jan    5  2016 unicode_start
+-rwxr-xr-x 1 root root  130736 febr  22  2017 vdir
+-rwxr-xr-x 1 root root   31464 márc   7  2018 wdctl
+-rwxr-xr-x 1 root root     946 ápr    2  2017 which
+lrwxrwxrwx 1 root root       8 júl    3  2016 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 ápr   10  2022 zcat
+-rwxr-xr-x 1 root root    1777 ápr   10  2022 zcmp
+-rwxr-xr-x 1 root root    5764 ápr   10  2022 zdiff
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zegrep
+-rwxr-xr-x 1 root root     140 ápr   10  2022 zfgrep
+-rwxr-xr-x 1 root root    2131 ápr   10  2022 zforce
+-rwxr-xr-x 1 root root    5929 ápr   10  2022 zgrep
+-rwxr-xr-x 1 root root    2037 ápr   10  2022 zless
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt" -exec tail -2 {} \;
+vmi1
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ man find
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ find . -name "*.txt" -exec tail -2 {} \;
+vmi1
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+-rwxr-xr-x 1 root root    1910 ápr   10  2022 zmore
+-rwxr-xr-x 1 root root    5047 ápr   10  2022 znew
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+ 14188  0.0  0.0  10460   652 pts/3    S    09:13   0:00 sleep 20
+kgomori+ 14220  0.0  0.0  45036  3256 pts/19   R+   09:13   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29768  5120 pts/3    Ss+  08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+ 14342  0.0  0.0  34468  1608 pts/19   R+   09:13   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29944  5120 pts/3    Ss+  08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+ 14370  0.0  0.0  10460   652 pts/3    S+   09:13   0:00 sleep 20
+kgomori+ 14397  0.0  0.0  45036  3220 pts/19   R+   09:13   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29944  5272 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+ 14428  0.0  0.0  34468  1588 pts/19   R+   09:14   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29944  5272 pts/3    Ss+  08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+kgomori+ 14459  0.0  0.0  10460   696 pts/3    S+   09:14   0:00 sleep 40
+kgomori+ 14472  0.0  0.0  45036  3204 pts/19   R+   09:14   0:00 ps aux
+kgomori+ 21524  0.0  0.0  29852  5452 pts/19   Ss   08:26   0:00 -bash
+kgomori+ 29470  0.0  0.0  29944  5272 pts/3    Ss   08:38   0:00 -bash
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ kill 14459
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+s6cvr0   pts/5        2024-11-07 07:40 (10.10.120.66)
+avnb6e   pts/6        2024-11-07 08:14 (88.87.241.206)
+sasasoft pts/7        2024-11-07 08:11 (10.10.8.213)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+gcgoo7   pts/9        2024-11-07 07:49 (10.10.8.69)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ymob1d   pts/11       2024-11-07 08:02 (10.10.9.17)
+v4lghf   pts/12       2024-11-07 09:15 (37.76.0.1)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+b40t6a   pts/14       2024-11-07 09:08 (92.249.189.115)
+xb3cwg   pts/15       2024-11-07 09:08 (10.10.8.91)
+v4lghf   pts/16       2024-11-07 09:00 (37.76.0.1)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+xt1elp   pts/20       2024-11-07 08:20 (10.10.122.101)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+vu6awb   pts/24       2024-11-07 08:25 (10.10.8.55)
+ymob1d   pts/25       2024-11-07 08:25 (10.10.9.17)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+t61t6g   pts/27       2024-11-07 08:27 (10.10.120.118)
+l9fov0   pts/28       2024-11-07 09:10 (89.134.11.7)
+dunuqg   pts/29       2024-11-07 08:39 (10.10.11.163)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+fk8a4f   pts/35       2024-11-07 08:47 (10.10.11.156)
+ajedde   pts/36       2024-11-07 08:29 (10.10.122.20)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+hd1a1p   pts/38       2024-11-07 08:29 (10.10.11.59)
+muyr3q   pts/39       2024-11-07 08:30 (10.10.11.90)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+eg2e3m   pts/41       2024-11-07 08:30 (10.10.123.22)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+r5uo20   pts/43       2024-11-07 08:30 (10.10.11.159)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+l2ue9c   pts/47       2024-11-07 08:31 (89.134.6.138)
+v2a820   pts/48       2024-11-07 08:31 (10.10.122.198)
+q9u1xp   pts/49       2024-11-07 08:31 (10.10.11.170)
+ec9vqv   pts/50       2024-11-07 08:32 (10.10.122.9)
+ut2010   pts/51       2024-11-07 08:44 (10.10.123.76)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+usn7sg   pts/57       2024-11-07 08:42 (45.155.40.206)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+a1g3xf   pts/60       2024-11-07 08:39 (10.10.11.109)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+e68wn2   pts/62       2024-11-07 08:41 (10.10.122.242)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+s6cvr0   pts/5        2024-11-07 07:40 (10.10.120.66)
+avnb6e   pts/6        2024-11-07 08:14 (88.87.241.206)
+sasasoft pts/7        2024-11-07 08:11 (10.10.8.213)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+gcgoo7   pts/9        2024-11-07 07:49 (10.10.8.69)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ymob1d   pts/11       2024-11-07 08:02 (10.10.9.17)
+v4lghf   pts/12       2024-11-07 09:15 (37.76.0.1)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+b40t6a   pts/14       2024-11-07 09:08 (92.249.189.115)
+xb3cwg   pts/15       2024-11-07 09:08 (10.10.8.91)
+v4lghf   pts/16       2024-11-07 09:00 (37.76.0.1)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+xt1elp   pts/20       2024-11-07 08:20 (10.10.122.101)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+vu6awb   pts/24       2024-11-07 08:25 (10.10.8.55)
+ymob1d   pts/25       2024-11-07 08:25 (10.10.9.17)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+t61t6g   pts/27       2024-11-07 08:27 (10.10.120.118)
+l9fov0   pts/28       2024-11-07 09:10 (89.134.11.7)
+dunuqg   pts/29       2024-11-07 08:39 (10.10.11.163)
+e68wn2   pts/30       2024-11-07 09:18 (10.10.122.242)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+fk8a4f   pts/35       2024-11-07 08:47 (10.10.11.156)
+ajedde   pts/36       2024-11-07 08:29 (10.10.122.20)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+hd1a1p   pts/38       2024-11-07 08:29 (10.10.11.59)
+muyr3q   pts/39       2024-11-07 08:30 (10.10.11.90)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+eg2e3m   pts/41       2024-11-07 08:30 (10.10.123.22)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+r5uo20   pts/43       2024-11-07 08:30 (10.10.11.159)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+l2ue9c   pts/47       2024-11-07 08:31 (89.134.6.138)
+v2a820   pts/48       2024-11-07 08:31 (10.10.122.198)
+q9u1xp   pts/49       2024-11-07 08:31 (10.10.11.170)
+ec9vqv   pts/50       2024-11-07 08:32 (10.10.122.9)
+ut2010   pts/51       2024-11-07 08:44 (10.10.123.76)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+usn7sg   pts/57       2024-11-07 08:42 (45.155.40.206)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+a1g3xf   pts/60       2024-11-07 08:39 (10.10.11.109)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+e68wn2   pts/62       2024-11-07 08:41 (10.10.122.242)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep i
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep z
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep ^i
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep vf
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep 2024
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+s6cvr0   pts/5        2024-11-07 07:40 (10.10.120.66)
+avnb6e   pts/6        2024-11-07 08:14 (88.87.241.206)
+sasasoft pts/7        2024-11-07 08:11 (10.10.8.213)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+gcgoo7   pts/9        2024-11-07 07:49 (10.10.8.69)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ymob1d   pts/11       2024-11-07 08:02 (10.10.9.17)
+v4lghf   pts/12       2024-11-07 09:15 (37.76.0.1)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+b40t6a   pts/14       2024-11-07 09:08 (92.249.189.115)
+xb3cwg   pts/15       2024-11-07 09:08 (10.10.8.91)
+v4lghf   pts/16       2024-11-07 09:00 (37.76.0.1)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+xt1elp   pts/20       2024-11-07 08:20 (10.10.122.101)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+vu6awb   pts/24       2024-11-07 08:25 (10.10.8.55)
+ymob1d   pts/25       2024-11-07 08:25 (10.10.9.17)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+t61t6g   pts/27       2024-11-07 08:27 (10.10.120.118)
+l9fov0   pts/28       2024-11-07 09:10 (89.134.11.7)
+dunuqg   pts/29       2024-11-07 08:39 (10.10.11.163)
+e68wn2   pts/30       2024-11-07 09:18 (10.10.122.242)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+fk8a4f   pts/35       2024-11-07 08:47 (10.10.11.156)
+ajedde   pts/36       2024-11-07 08:29 (10.10.122.20)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+hd1a1p   pts/38       2024-11-07 08:29 (10.10.11.59)
+muyr3q   pts/39       2024-11-07 08:30 (10.10.11.90)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+eg2e3m   pts/41       2024-11-07 08:30 (10.10.123.22)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+r5uo20   pts/43       2024-11-07 08:30 (10.10.11.159)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+l2ue9c   pts/47       2024-11-07 08:31 (89.134.6.138)
+v2a820   pts/48       2024-11-07 08:31 (10.10.122.198)
+q9u1xp   pts/49       2024-11-07 08:31 (10.10.11.170)
+ec9vqv   pts/50       2024-11-07 08:32 (10.10.122.9)
+ut2010   pts/51       2024-11-07 08:44 (10.10.123.76)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+usn7sg   pts/57       2024-11-07 08:42 (45.155.40.206)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+a1g3xf   pts/60       2024-11-07 08:39 (10.10.11.109)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+e68wn2   pts/62       2024-11-07 08:41 (10.10.122.242)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep i
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep 157
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+s6cvr0   pts/5        2024-11-07 07:40 (10.10.120.66)
+avnb6e   pts/6        2024-11-07 08:14 (88.87.241.206)
+sasasoft pts/7        2024-11-07 08:11 (10.10.8.213)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+gcgoo7   pts/9        2024-11-07 07:49 (10.10.8.69)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ymob1d   pts/11       2024-11-07 08:02 (10.10.9.17)
+v4lghf   pts/12       2024-11-07 09:15 (37.76.0.1)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+b40t6a   pts/14       2024-11-07 09:08 (92.249.189.115)
+xb3cwg   pts/15       2024-11-07 09:08 (10.10.8.91)
+v4lghf   pts/16       2024-11-07 09:00 (37.76.0.1)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+xt1elp   pts/20       2024-11-07 08:20 (10.10.122.101)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+vu6awb   pts/24       2024-11-07 08:25 (10.10.8.55)
+ymob1d   pts/25       2024-11-07 08:25 (10.10.9.17)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+t61t6g   pts/27       2024-11-07 08:27 (10.10.120.118)
+l9fov0   pts/28       2024-11-07 09:10 (89.134.11.7)
+dunuqg   pts/29       2024-11-07 08:39 (10.10.11.163)
+e68wn2   pts/30       2024-11-07 09:18 (10.10.122.242)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+fk8a4f   pts/35       2024-11-07 08:47 (10.10.11.156)
+ajedde   pts/36       2024-11-07 08:29 (10.10.122.20)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+hd1a1p   pts/38       2024-11-07 08:29 (10.10.11.59)
+muyr3q   pts/39       2024-11-07 08:30 (10.10.11.90)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+eg2e3m   pts/41       2024-11-07 08:30 (10.10.123.22)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+r5uo20   pts/43       2024-11-07 08:30 (10.10.11.159)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+l2ue9c   pts/47       2024-11-07 08:31 (89.134.6.138)
+v2a820   pts/48       2024-11-07 08:31 (10.10.122.198)
+q9u1xp   pts/49       2024-11-07 08:31 (10.10.11.170)
+ec9vqv   pts/50       2024-11-07 08:32 (10.10.122.9)
+ut2010   pts/51       2024-11-07 08:44 (10.10.123.76)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+usn7sg   pts/57       2024-11-07 08:42 (45.155.40.206)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+a1g3xf   pts/60       2024-11-07 08:39 (10.10.11.109)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+e68wn2   pts/62       2024-11-07 08:41 (10.10.122.242)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep (157
+-bash: szintaktikai hiba „157” váratlan token közelében
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep "(157"
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | grep pts
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+s6cvr0   pts/5        2024-11-07 07:40 (10.10.120.66)
+avnb6e   pts/6        2024-11-07 08:14 (88.87.241.206)
+sasasoft pts/7        2024-11-07 08:11 (10.10.8.213)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+gcgoo7   pts/9        2024-11-07 07:49 (10.10.8.69)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ymob1d   pts/11       2024-11-07 08:02 (10.10.9.17)
+v4lghf   pts/12       2024-11-07 09:15 (37.76.0.1)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+b40t6a   pts/14       2024-11-07 09:08 (92.249.189.115)
+xb3cwg   pts/15       2024-11-07 09:08 (10.10.8.91)
+v4lghf   pts/16       2024-11-07 09:00 (37.76.0.1)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+xt1elp   pts/20       2024-11-07 08:20 (10.10.122.101)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+vu6awb   pts/24       2024-11-07 08:25 (10.10.8.55)
+ymob1d   pts/25       2024-11-07 08:25 (10.10.9.17)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+t61t6g   pts/27       2024-11-07 08:27 (10.10.120.118)
+l9fov0   pts/28       2024-11-07 09:10 (89.134.11.7)
+dunuqg   pts/29       2024-11-07 08:39 (10.10.11.163)
+e68wn2   pts/30       2024-11-07 09:18 (10.10.122.242)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+fk8a4f   pts/35       2024-11-07 08:47 (10.10.11.156)
+ajedde   pts/36       2024-11-07 08:29 (10.10.122.20)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+hd1a1p   pts/38       2024-11-07 08:29 (10.10.11.59)
+muyr3q   pts/39       2024-11-07 08:30 (10.10.11.90)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+eg2e3m   pts/41       2024-11-07 08:30 (10.10.123.22)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+r5uo20   pts/43       2024-11-07 08:30 (10.10.11.159)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+l2ue9c   pts/47       2024-11-07 08:31 (89.134.6.138)
+v2a820   pts/48       2024-11-07 08:31 (10.10.122.198)
+q9u1xp   pts/49       2024-11-07 08:31 (10.10.11.170)
+ec9vqv   pts/50       2024-11-07 08:32 (10.10.122.9)
+ut2010   pts/51       2024-11-07 08:44 (10.10.123.76)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+usn7sg   pts/57       2024-11-07 08:42 (45.155.40.206)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+a1g3xf   pts/60       2024-11-07 08:39 (10.10.11.109)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+e68wn2   pts/62       2024-11-07 08:41 (10.10.122.242)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}'
+vm4q1p
+pmnmiv
+szicsa
+kgomoririchard
+mea6ig
+s6cvr0
+avnb6e
+sasasoft
+ivf370
+gcgoo7
+iefof2
+ymob1d
+v4lghf
+ogqeas
+b40t6a
+bzoz05
+v4lghf
+hfgk8v
+aaop2f
+kgomoririchard
+xt1elp
+pn7joz
+fmt5q7
+ivf370
+vu6awb
+ymob1d
+oac0z2
+t61t6g
+l9fov0
+dunuqg
+e68wn2
+tkyes9
+hyczbo
+fk8a4f
+r3tre4
+fk8a4f
+ajedde
+dzj9kj
+hd1a1p
+muyr3q
+qtaq9s
+eg2e3m
+xx0hrr
+r5uo20
+liwbim
+h7uqci
+tkyes9
+l2ue9c
+v2a820
+q9u1xp
+ec9vqv
+ut2010
+qyvz4b
+p1srjr
+gkfumj
+gp0dsl
+fx2fk0
+usn7sg
+oac0z2
+zvv85u
+a1g3xf
+fbfeio
+e68wn2
+gp0dsl
+hn42xh
+zxg6f8
+oac0z2
+hyczbo
+nxl9iz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep i
+pmnmiv
+szicsa
+kgomoririchard
+mea6ig
+ivf370
+iefof2
+kgomoririchard
+ivf370
+liwbim
+h7uqci
+fbfeio
+nxl9iz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep pts
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep richard
+kgomoririchard
+kgomoririchard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep ric
+kgomoririchard
+kgomoririchard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep ri
+kgomoririchard
+kgomoririchard
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep zf
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep g
+kgomoririchard
+mea6ig
+gcgoo7
+v4lghf
+ogqeas
+v4lghf
+hfgk8v
+kgomoririchard
+t61t6g
+dunuqg
+eg2e3m
+gkfumj
+gp0dsl
+usn7sg
+a1g3xf
+gp0dsl
+zxg6f8
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep zxg
+zxg6f8
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep zx
+zxg6f8
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1}' | grep a
+szicsa
+kgomoririchard
+mea6ig
+avnb6e
+sasasoft
+ogqeas
+b40t6a
+aaop2f
+kgomoririchard
+vu6awb
+oac0z2
+fk8a4f
+fk8a4f
+ajedde
+hd1a1p
+qtaq9s
+v2a820
+oac0z2
+a1g3xf
+oac0z2
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | cut -d ' ' -f 1
+vm4q1p
+pmnmiv
+szicsa
+kgomoririchard
+mea6ig
+s6cvr0
+avnb6e
+sasasoft
+ivf370
+gcgoo7
+iefof2
+ymob1d
+v4lghf
+ogqeas
+b40t6a
+bzoz05
+v4lghf
+hfgk8v
+aaop2f
+kgomoririchard
+xt1elp
+pn7joz
+fmt5q7
+ivf370
+vu6awb
+ymob1d
+oac0z2
+t61t6g
+l9fov0
+dunuqg
+e68wn2
+tkyes9
+hyczbo
+fk8a4f
+r3tre4
+fk8a4f
+ajedde
+dzj9kj
+hd1a1p
+muyr3q
+qtaq9s
+eg2e3m
+xx0hrr
+r5uo20
+liwbim
+h7uqci
+tkyes9
+l2ue9c
+v2a820
+q9u1xp
+ec9vqv
+ut2010
+qyvz4b
+p1srjr
+gkfumj
+gp0dsl
+fx2fk0
+usn7sg
+oac0z2
+zvv85u
+a1g3xf
+fbfeio
+e68wn2
+gp0dsl
+hn42xh
+zxg6f8
+oac0z2
+hyczbo
+nxl9iz
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who
+vm4q1p   pts/0        2024-11-07 04:23 (81.182.157.123)
+pmnmiv   pts/1        2024-11-07 02:14 (86.101.67.194)
+szicsa   pts/2        2024-11-07 07:36 (10.10.7.226)
+kgomoririchard pts/3        2024-11-07 08:38 (157.181.161.16)
+mea6ig   pts/4        2024-11-07 08:11 (10.10.10.17)
+s6cvr0   pts/5        2024-11-07 07:40 (10.10.120.66)
+avnb6e   pts/6        2024-11-07 08:14 (88.87.241.206)
+sasasoft pts/7        2024-11-07 08:11 (10.10.8.213)
+ivf370   pts/8        2024-11-07 08:22 (157.181.161.16)
+gcgoo7   pts/9        2024-11-07 07:49 (10.10.8.69)
+iefof2   pts/10       2024-11-07 09:00 (157.181.161.16)
+ymob1d   pts/11       2024-11-07 08:02 (10.10.9.17)
+v4lghf   pts/12       2024-11-07 09:15 (37.76.0.1)
+ogqeas   pts/13       2024-11-07 08:15 (157.181.161.16)
+b40t6a   pts/14       2024-11-07 09:08 (92.249.189.115)
+bzoz05   pts/15       2024-11-07 09:24 (94.44.102.88)
+v4lghf   pts/16       2024-11-07 09:00 (37.76.0.1)
+hfgk8v   pts/17       2024-11-07 08:18 (157.181.161.16)
+aaop2f   pts/18       2024-11-07 08:18 (157.181.161.16)
+kgomoririchard pts/19       2024-11-07 08:26 (157.181.161.16)
+xt1elp   pts/20       2024-11-07 08:20 (10.10.122.101)
+pn7joz   pts/21       2024-11-07 08:48 (10.10.11.129)
+fmt5q7   pts/22       2024-11-07 08:23 (157.181.161.16)
+ivf370   pts/23       2024-11-07 08:24 (157.181.161.16)
+vu6awb   pts/24       2024-11-07 08:25 (10.10.8.55)
+ymob1d   pts/25       2024-11-07 08:25 (10.10.9.17)
+oac0z2   pts/26       2024-11-07 08:37 (37.76.2.41)
+t61t6g   pts/27       2024-11-07 08:27 (10.10.120.118)
+l9fov0   pts/28       2024-11-07 09:10 (89.134.11.7)
+dunuqg   pts/29       2024-11-07 08:39 (10.10.11.163)
+e68wn2   pts/30       2024-11-07 09:18 (10.10.122.242)
+tkyes9   pts/31       2024-11-07 08:35 (157.181.161.16)
+hyczbo   pts/32       2024-11-07 08:52 (157.181.161.16)
+fk8a4f   pts/33       2024-11-07 08:35 (157.181.161.16)
+r3tre4   pts/34       2024-11-07 08:29 (157.181.161.16)
+fk8a4f   pts/35       2024-11-07 08:47 (10.10.11.156)
+ajedde   pts/36       2024-11-07 08:29 (10.10.122.20)
+dzj9kj   pts/37       2024-11-07 08:29 (10.10.7.255)
+hd1a1p   pts/38       2024-11-07 08:29 (10.10.11.59)
+muyr3q   pts/39       2024-11-07 08:30 (10.10.11.90)
+qtaq9s   pts/40       2024-11-07 08:30 (157.181.161.16)
+eg2e3m   pts/41       2024-11-07 08:30 (10.10.123.22)
+xx0hrr   pts/42       2024-11-07 08:31 (157.181.161.16)
+r5uo20   pts/43       2024-11-07 08:30 (10.10.11.159)
+liwbim   pts/44       2024-11-07 09:01 (10.10.124.36)
+h7uqci   pts/45       2024-11-07 08:36 (10.10.122.208)
+tkyes9   pts/46       2024-11-07 08:43 (157.181.161.16)
+l2ue9c   pts/47       2024-11-07 08:31 (89.134.6.138)
+v2a820   pts/48       2024-11-07 08:31 (10.10.122.198)
+q9u1xp   pts/49       2024-11-07 08:31 (10.10.11.170)
+ec9vqv   pts/50       2024-11-07 08:32 (10.10.122.9)
+ut2010   pts/51       2024-11-07 08:44 (10.10.123.76)
+qyvz4b   pts/52       2024-11-07 08:32 (10.10.11.71)
+p1srjr   pts/53       2024-11-07 08:32 (157.181.161.16)
+gkfumj   pts/54       2024-11-07 08:32 (157.181.161.16)
+gp0dsl   pts/55       2024-11-07 08:35 (157.181.161.16)
+fx2fk0   pts/56       2024-11-07 08:36 (157.181.161.16)
+usn7sg   pts/57       2024-11-07 08:42 (45.155.40.206)
+oac0z2   pts/58       2024-11-07 08:42 (37.76.2.41)
+zvv85u   pts/59       2024-11-07 08:48 (157.181.161.16)
+a1g3xf   pts/60       2024-11-07 08:39 (10.10.11.109)
+fbfeio   pts/61       2024-11-07 08:40 (37.76.22.118)
+e68wn2   pts/62       2024-11-07 08:41 (10.10.122.242)
+gp0dsl   pts/63       2024-11-07 08:43 (157.181.161.16)
+hn42xh   pts/64       2024-11-07 09:19 (157.181.161.16)
+zxg6f8   pts/65       2024-11-07 08:43 (10.10.122.251)
+oac0z2   pts/66       2024-11-07 08:57 (37.76.2.41)
+hyczbo   pts/67       2024-11-07 09:02 (157.181.161.16)
+nxl9iz   pts/68       2024-11-07 09:19 (157.181.161.16)
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1,
+> ^C
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1, $3, $4}'
+vm4q1p 2024-11-07 04:23
+pmnmiv 2024-11-07 02:14
+szicsa 2024-11-07 07:36
+kgomoririchard 2024-11-07 08:38
+mea6ig 2024-11-07 08:11
+s6cvr0 2024-11-07 07:40
+avnb6e 2024-11-07 08:14
+sasasoft 2024-11-07 08:11
+ivf370 2024-11-07 08:22
+gcgoo7 2024-11-07 07:49
+iefof2 2024-11-07 09:00
+ymob1d 2024-11-07 08:02
+v4lghf 2024-11-07 09:15
+ogqeas 2024-11-07 08:15
+b40t6a 2024-11-07 09:08
+bzoz05 2024-11-07 09:24
+v4lghf 2024-11-07 09:00
+hfgk8v 2024-11-07 08:18
+aaop2f 2024-11-07 08:18
+kgomoririchard 2024-11-07 08:26
+xt1elp 2024-11-07 08:20
+pn7joz 2024-11-07 08:48
+fmt5q7 2024-11-07 08:23
+ivf370 2024-11-07 08:24
+vu6awb 2024-11-07 08:25
+ymob1d 2024-11-07 08:25
+oac0z2 2024-11-07 08:37
+t61t6g 2024-11-07 08:27
+l9fov0 2024-11-07 09:10
+dunuqg 2024-11-07 08:39
+e68wn2 2024-11-07 09:18
+tkyes9 2024-11-07 08:35
+hyczbo 2024-11-07 08:52
+fk8a4f 2024-11-07 08:35
+r3tre4 2024-11-07 08:29
+fk8a4f 2024-11-07 08:47
+ajedde 2024-11-07 08:29
+dzj9kj 2024-11-07 08:29
+hd1a1p 2024-11-07 08:29
+muyr3q 2024-11-07 08:30
+qtaq9s 2024-11-07 08:30
+eg2e3m 2024-11-07 08:30
+xx0hrr 2024-11-07 08:31
+r5uo20 2024-11-07 08:30
+liwbim 2024-11-07 09:01
+h7uqci 2024-11-07 08:36
+tkyes9 2024-11-07 08:43
+l2ue9c 2024-11-07 08:31
+v2a820 2024-11-07 08:31
+q9u1xp 2024-11-07 08:31
+ec9vqv 2024-11-07 08:32
+ut2010 2024-11-07 08:44
+qyvz4b 2024-11-07 08:32
+p1srjr 2024-11-07 08:32
+gkfumj 2024-11-07 08:32
+gp0dsl 2024-11-07 08:35
+fx2fk0 2024-11-07 08:36
+usn7sg 2024-11-07 08:42
+oac0z2 2024-11-07 08:42
+zvv85u 2024-11-07 08:48
+a1g3xf 2024-11-07 08:39
+fbfeio 2024-11-07 08:40
+e68wn2 2024-11-07 08:41
+gp0dsl 2024-11-07 08:43
+hn42xh 2024-11-07 09:19
+zxg6f8 2024-11-07 08:43
+oac0z2 2024-11-07 08:57
+hyczbo 2024-11-07 09:02
+nxl9iz 2024-11-07 09:19
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1, $3, $4}'  | sort -k2,2 -k3,3
+pmnmiv 2024-11-07 02:14
+vm4q1p 2024-11-07 04:23
+szicsa 2024-11-07 07:36
+s6cvr0 2024-11-07 07:40
+gcgoo7 2024-11-07 07:49
+ymob1d 2024-11-07 08:02
+mea6ig 2024-11-07 08:11
+sasasoft 2024-11-07 08:11
+avnb6e 2024-11-07 08:14
+ogqeas 2024-11-07 08:15
+aaop2f 2024-11-07 08:18
+hfgk8v 2024-11-07 08:18
+xt1elp 2024-11-07 08:20
+ivf370 2024-11-07 08:22
+fmt5q7 2024-11-07 08:23
+ivf370 2024-11-07 08:24
+vu6awb 2024-11-07 08:25
+ymob1d 2024-11-07 08:25
+kgomoririchard 2024-11-07 08:26
+t61t6g 2024-11-07 08:27
+ajedde 2024-11-07 08:29
+dzj9kj 2024-11-07 08:29
+hd1a1p 2024-11-07 08:29
+r3tre4 2024-11-07 08:29
+eg2e3m 2024-11-07 08:30
+muyr3q 2024-11-07 08:30
+qtaq9s 2024-11-07 08:30
+r5uo20 2024-11-07 08:30
+l2ue9c 2024-11-07 08:31
+q9u1xp 2024-11-07 08:31
+v2a820 2024-11-07 08:31
+xx0hrr 2024-11-07 08:31
+ec9vqv 2024-11-07 08:32
+gkfumj 2024-11-07 08:32
+p1srjr 2024-11-07 08:32
+qyvz4b 2024-11-07 08:32
+fk8a4f 2024-11-07 08:35
+gp0dsl 2024-11-07 08:35
+tkyes9 2024-11-07 08:35
+fx2fk0 2024-11-07 08:36
+h7uqci 2024-11-07 08:36
+oac0z2 2024-11-07 08:37
+kgomoririchard 2024-11-07 08:38
+a1g3xf 2024-11-07 08:39
+dunuqg 2024-11-07 08:39
+fbfeio 2024-11-07 08:40
+e68wn2 2024-11-07 08:41
+oac0z2 2024-11-07 08:42
+usn7sg 2024-11-07 08:42
+gp0dsl 2024-11-07 08:43
+tkyes9 2024-11-07 08:43
+zxg6f8 2024-11-07 08:43
+ut2010 2024-11-07 08:44
+fk8a4f 2024-11-07 08:47
+pn7joz 2024-11-07 08:48
+zvv85u 2024-11-07 08:48
+hyczbo 2024-11-07 08:52
+oac0z2 2024-11-07 08:57
+iefof2 2024-11-07 09:00
+v4lghf 2024-11-07 09:00
+liwbim 2024-11-07 09:01
+hyczbo 2024-11-07 09:02
+b40t6a 2024-11-07 09:08
+l9fov0 2024-11-07 09:10
+v4lghf 2024-11-07 09:15
+e68wn2 2024-11-07 09:18
+hn42xh 2024-11-07 09:19
+nxl9iz 2024-11-07 09:19
+bzoz05 2024-11-07 09:24
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1, $3, $4}'  | sort -k2,2 -k3,3  | awk '{print $1}'
+pmnmiv
+vm4q1p
+szicsa
+s6cvr0
+gcgoo7
+ymob1d
+mea6ig
+sasasoft
+avnb6e
+ogqeas
+aaop2f
+hfgk8v
+xt1elp
+ivf370
+fmt5q7
+ivf370
+vu6awb
+ymob1d
+kgomoririchard
+t61t6g
+ajedde
+dzj9kj
+hd1a1p
+r3tre4
+eg2e3m
+muyr3q
+qtaq9s
+r5uo20
+l2ue9c
+q9u1xp
+v2a820
+xx0hrr
+ec9vqv
+gkfumj
+p1srjr
+qyvz4b
+fk8a4f
+gp0dsl
+tkyes9
+fx2fk0
+h7uqci
+oac0z2
+kgomoririchard
+a1g3xf
+dunuqg
+fbfeio
+e68wn2
+oac0z2
+usn7sg
+gp0dsl
+tkyes9
+zxg6f8
+ut2010
+fk8a4f
+pn7joz
+zvv85u
+hyczbo
+oac0z2
+iefof2
+v4lghf
+liwbim
+hyczbo
+b40t6a
+l9fov0
+v4lghf
+e68wn2
+hn42xh
+nxl9iz
+bzoz05
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1, $3, $4}'  | sort -k2,2 -k3,3  | awk '{print $1}' | uniq
+pmnmiv
+vm4q1p
+szicsa
+s6cvr0
+gcgoo7
+ymob1d
+mea6ig
+sasasoft
+avnb6e
+ogqeas
+aaop2f
+hfgk8v
+xt1elp
+ivf370
+fmt5q7
+ivf370
+vu6awb
+ymob1d
+kgomoririchard
+t61t6g
+ajedde
+dzj9kj
+hd1a1p
+r3tre4
+eg2e3m
+muyr3q
+qtaq9s
+l2ue9c
+q9u1xp
+v2a820
+xx0hrr
+ec9vqv
+gkfumj
+p1srjr
+qyvz4b
+fk8a4f
+gp0dsl
+tkyes9
+fx2fk0
+h7uqci
+oac0z2
+kgomoririchard
+a1g3xf
+dunuqg
+fbfeio
+e68wn2
+oac0z2
+usn7sg
+gp0dsl
+tkyes9
+zxg6f8
+ut2010
+fk8a4f
+pn7joz
+zvv85u
+hyczbo
+oac0z2
+iefof2
+v4lghf
+liwbim
+hyczbo
+b40t6a
+l9fov0
+v4lghf
+e68wn2
+hn42xh
+nxl9iz
+bzoz05
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1, $3, $4}'  | sort -k2,2 -k3,3  | awk '{print $1}'
+pmnmiv
+vm4q1p
+szicsa
+s6cvr0
+gcgoo7
+ymob1d
+mea6ig
+sasasoft
+avnb6e
+ogqeas
+aaop2f
+hfgk8v
+xt1elp
+ivf370
+fmt5q7
+ivf370
+vu6awb
+ymob1d
+kgomoririchard
+t61t6g
+ajedde
+dzj9kj
+hd1a1p
+r3tre4
+eg2e3m
+muyr3q
+qtaq9s
+q9u1xp
+v2a820
+xx0hrr
+ec9vqv
+gkfumj
+p1srjr
+qyvz4b
+fk8a4f
+gp0dsl
+tkyes9
+fx2fk0
+h7uqci
+oac0z2
+kgomoririchard
+a1g3xf
+dunuqg
+fbfeio
+e68wn2
+oac0z2
+usn7sg
+gp0dsl
+tkyes9
+zxg6f8
+ut2010
+fk8a4f
+pn7joz
+zvv85u
+hyczbo
+oac0z2
+iefof2
+v4lghf
+liwbim
+hyczbo
+b40t6a
+l9fov0
+v4lghf
+e68wn2
+hn42xh
+nxl9iz
+bzoz05
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ who | awk '{print $1, $3, $4}'  | sort -k2,2 -k3,3  | awk '{print $1}'
+pmnmiv
+vm4q1p
+szicsa
+s6cvr0
+gcgoo7
+ymob1d
+mea6ig
+sasasoft
+avnb6e
+ogqeas
+aaop2f
+hfgk8v
+xt1elp
+ivf370
+fmt5q7
+ivf370
+vu6awb
+ymob1d
+kgomoririchard
+t61t6g
+ajedde
+dzj9kj
+hd1a1p
+r3tre4
+eg2e3m
+muyr3q
+qtaq9s
+q9u1xp
+v2a820
+xx0hrr
+ec9vqv
+gkfumj
+p1srjr
+qyvz4b
+fk8a4f
+gp0dsl
+tkyes9
+fx2fk0
+h7uqci
+oac0z2
+kgomoririchard
+a1g3xf
+dunuqg
+fbfeio
+e68wn2
+oac0z2
+usn7sg
+gp0dsl
+tkyes9
+zxg6f8
+ut2010
+fk8a4f
+pn7joz
+zvv85u
+hyczbo
+oac0z2
+iefof2
+v4lghf
+liwbim
+hyczbo
+b40t6a
+l9fov0
+v4lghf
+e68wn2
+hn42xh
+nxl9iz
+bzoz05
+l2ue9c
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07/filmek$ cd ..
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ nano napszak.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ chmod +x napszak.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ ./napszak.sh
+./napszak.sh: sor: 12: [[: 09: túl nagy érték a számrendszerhez (hibás token: „09”)
+./napszak.sh: sor: 14: [[: 09: túl nagy érték a számrendszerhez (hibás token: „09”)
+Este
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ nano napszak.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ ./napszak.sh
+Delelott
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ nano napszak.sh
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ ./napszak.sh
+Delelott
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ nano names.txt
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ cat na
+cat: na: Nincs ilyen fájl vagy könyvtár
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ cat names.txt
+Richard Koch-Gomori,2016.09.01
+Gipsz Jakab,2020.09.10
+Gipsz Jakab2,2022.10.12
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ cut -d ',' -f 1 names.txt
+Richard Koch-Gomori
+Gipsz Jakab
+Gipsz Jakab2
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$ cut -d ',' -f 2 names.txt
+2016.09.01
+2020.09.10
+2022.10.12
+
+kgomoririchard@szamrend:~/Dokumentumok/Szamrend-24-25-1/gyak07$
+
+
